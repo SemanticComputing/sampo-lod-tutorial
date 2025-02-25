@@ -1,0 +1,9 @@
+import convert_people, convert_places, convert_producers, convert_compositions, convert_composition_roles, convert_performances, convert_performance_roles
+
+convert_people.create_person_instances()
+convert_places.create_place_instances()
+convert_producers.create_producer_instances()
+convert_compositions.create_composition_instances()
+convert_composition_roles.create_composition_role_instances()
+convert_performances.create_performance_instances()
+convert_performance_roles.create_performance_role_instances()
