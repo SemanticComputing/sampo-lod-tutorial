@@ -1,0 +1,988 @@
+@prefix ops: <http://ldf.fi/operasampo/> .
+@prefix scop: <http://ldf.fi/schema/operasampo/> .
+
+ops:performance_roles_14322600 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_14322592 ;
+    scop:performance ops:performances_14322586 ;
+    scop:performer ops:persons_14320760 .
+
+ops:performance_roles_14322601 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_14322593 ;
+    scop:performance ops:performances_14322586 ;
+    scop:performer ops:persons_14319746 .
+
+ops:performance_roles_14322602 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_14322594 ;
+    scop:performance ops:performances_14322586 ;
+    scop:performer ops:persons_14318964 .
+
+ops:performance_roles_14322603 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_14322595 ;
+    scop:performance ops:performances_14322586 ;
+    scop:performer ops:persons_13388604 .
+
+ops:performance_roles_14322604 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_14322596 ;
+    scop:performance ops:performances_14322586 ;
+    scop:performer ops:persons_14318966 .
+
+ops:performance_roles_14322605 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_14322597 ;
+    scop:performance ops:performances_14322586 ;
+    scop:performer ops:persons_14318972 .
+
+ops:performance_roles_14322606 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_14322598 ;
+    scop:performance ops:performances_14322586 ;
+    scop:performer ops:persons_14318978 .
+
+ops:performance_roles_15284408 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551941 ;
+    scop:performance ops:performances_5849602 ;
+    scop:performer ops:persons_5849702 .
+
+ops:performance_roles_15284409 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551942 ;
+    scop:performance ops:performances_5849602 ;
+    scop:performer ops:persons_4552076 .
+
+ops:performance_roles_15284410 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551943 ;
+    scop:performance ops:performances_5849602 ;
+    scop:performer ops:persons_4566177 .
+
+ops:performance_roles_15284411 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551945 ;
+    scop:performance ops:performances_5849602 ;
+    scop:performer ops:persons_4558514 .
+
+ops:performance_roles_15284412 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551946 ;
+    scop:performance ops:performances_5849602 ;
+    scop:performer ops:persons_4558522 .
+
+ops:performance_roles_15284413 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551947 ;
+    scop:performance ops:performances_5849602 ;
+    scop:performer ops:persons_5519937 .
+
+ops:performance_roles_15284414 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551941 ;
+    scop:performance ops:performances_5849744 ;
+    scop:performer ops:persons_5849702 .
+
+ops:performance_roles_15284415 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551942 ;
+    scop:performance ops:performances_5849744 ;
+    scop:performer ops:persons_4552076 .
+
+ops:performance_roles_15284416 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551943 ;
+    scop:performance ops:performances_5849744 ;
+    scop:performer ops:persons_4566177 .
+
+ops:performance_roles_15284417 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551945 ;
+    scop:performance ops:performances_5849744 ;
+    scop:performer ops:persons_4558514 .
+
+ops:performance_roles_15284418 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551946 ;
+    scop:performance ops:performances_5849744 ;
+    scop:performer ops:persons_4558522 .
+
+ops:performance_roles_15284419 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551947 ;
+    scop:performance ops:performances_5849744 ;
+    scop:performer ops:persons_5519937 .
+
+ops:performance_roles_15284420 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551941 ;
+    scop:performance ops:performances_5849759 ;
+    scop:performer ops:persons_5849702 .
+
+ops:performance_roles_15284421 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551942 ;
+    scop:performance ops:performances_5849759 ;
+    scop:performer ops:persons_4552076 .
+
+ops:performance_roles_15284422 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551943 ;
+    scop:performance ops:performances_5849759 ;
+    scop:performer ops:persons_4566177 .
+
+ops:performance_roles_15284423 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551945 ;
+    scop:performance ops:performances_5849759 ;
+    scop:performer ops:persons_4558514 .
+
+ops:performance_roles_15284424 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551946 ;
+    scop:performance ops:performances_5849759 ;
+    scop:performer ops:persons_4558522 .
+
+ops:performance_roles_15284425 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551947 ;
+    scop:performance ops:performances_5849759 ;
+    scop:performer ops:persons_5519937 .
+
+ops:performance_roles_15284426 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551941 ;
+    scop:performance ops:performances_5849763 ;
+    scop:performer ops:persons_5849702 .
+
+ops:performance_roles_15284427 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551942 ;
+    scop:performance ops:performances_5849763 ;
+    scop:performer ops:persons_4552076 .
+
+ops:performance_roles_15284428 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551943 ;
+    scop:performance ops:performances_5849763 ;
+    scop:performer ops:persons_4566177 .
+
+ops:performance_roles_15284429 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551945 ;
+    scop:performance ops:performances_5849763 ;
+    scop:performer ops:persons_4558514 .
+
+ops:performance_roles_15284430 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551946 ;
+    scop:performance ops:performances_5849763 ;
+    scop:performer ops:persons_4558522 .
+
+ops:performance_roles_15284431 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551947 ;
+    scop:performance ops:performances_5849763 ;
+    scop:performer ops:persons_5519937 .
+
+ops:performance_roles_15284432 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551941 ;
+    scop:performance ops:performances_5849769 ;
+    scop:performer ops:persons_5849702 .
+
+ops:performance_roles_15284433 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551942 ;
+    scop:performance ops:performances_5849769 ;
+    scop:performer ops:persons_4552076 .
+
+ops:performance_roles_15284434 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551943 ;
+    scop:performance ops:performances_5849769 ;
+    scop:performer ops:persons_4566177 .
+
+ops:performance_roles_15284435 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551945 ;
+    scop:performance ops:performances_5849769 ;
+    scop:performer ops:persons_4558514 .
+
+ops:performance_roles_15284436 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551946 ;
+    scop:performance ops:performances_5849769 ;
+    scop:performer ops:persons_4558522 .
+
+ops:performance_roles_15284437 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551947 ;
+    scop:performance ops:performances_5849769 ;
+    scop:performer ops:persons_5519937 .
+
+ops:performance_roles_15284438 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551941 ;
+    scop:performance ops:performances_5849790 ;
+    scop:performer ops:persons_5849702 .
+
+ops:performance_roles_15284439 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551942 ;
+    scop:performance ops:performances_5849790 ;
+    scop:performer ops:persons_4552076 .
+
+ops:performance_roles_15284440 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551943 ;
+    scop:performance ops:performances_5849790 ;
+    scop:performer ops:persons_4566177 .
+
+ops:performance_roles_15284441 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551945 ;
+    scop:performance ops:performances_5849790 ;
+    scop:performer ops:persons_4558514 .
+
+ops:performance_roles_15284442 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551946 ;
+    scop:performance ops:performances_5849790 ;
+    scop:performer ops:persons_4558522 .
+
+ops:performance_roles_15284443 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551947 ;
+    scop:performance ops:performances_5849790 ;
+    scop:performer ops:persons_5519937 .
+
+ops:performance_roles_15284902 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551941 ;
+    scop:performance ops:performances_15284444 ;
+    scop:performer ops:persons_15284898 .
+
+ops:performance_roles_15284903 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551942 ;
+    scop:performance ops:performances_15284444 ;
+    scop:performer ops:persons_4692118 .
+
+ops:performance_roles_15284904 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551943 ;
+    scop:performance ops:performances_15284444 ;
+    scop:performer ops:persons_15284900 .
+
+ops:performance_roles_15284905 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551945 ;
+    scop:performance ops:performances_15284444 ;
+    scop:performer ops:persons_4558514 .
+
+ops:performance_roles_15284906 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551946 ;
+    scop:performance ops:performances_15284444 ;
+    scop:performer ops:persons_5961821 .
+
+ops:performance_roles_15284907 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551947 ;
+    scop:performance ops:performances_15284444 ;
+    scop:performer ops:persons_4679984 .
+
+ops:performance_roles_15284908 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551948 ;
+    scop:performance ops:performances_15284444 ;
+    scop:performer ops:persons_15284449 .
+
+ops:performance_roles_15284913 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551941 ;
+    scop:performance ops:performances_15284912 ;
+    scop:performer ops:persons_15284898 .
+
+ops:performance_roles_15284914 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551942 ;
+    scop:performance ops:performances_15284912 ;
+    scop:performer ops:persons_4692118 .
+
+ops:performance_roles_15284915 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551943 ;
+    scop:performance ops:performances_15284912 ;
+    scop:performer ops:persons_15284900 .
+
+ops:performance_roles_15284916 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551945 ;
+    scop:performance ops:performances_15284912 ;
+    scop:performer ops:persons_4558514 .
+
+ops:performance_roles_15284917 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551946 ;
+    scop:performance ops:performances_15284912 ;
+    scop:performer ops:persons_5961821 .
+
+ops:performance_roles_15284918 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551947 ;
+    scop:performance ops:performances_15284912 ;
+    scop:performer ops:persons_4679984 .
+
+ops:performance_roles_15284919 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551948 ;
+    scop:performance ops:performances_15284912 ;
+    scop:performer ops:persons_15284449 .
+
+ops:performance_roles_15284921 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551941 ;
+    scop:performance ops:performances_15284920 ;
+    scop:performer ops:persons_15284898 .
+
+ops:performance_roles_15284922 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551942 ;
+    scop:performance ops:performances_15284920 ;
+    scop:performer ops:persons_4692118 .
+
+ops:performance_roles_15284923 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551943 ;
+    scop:performance ops:performances_15284920 ;
+    scop:performer ops:persons_15284900 .
+
+ops:performance_roles_15284924 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551945 ;
+    scop:performance ops:performances_15284920 ;
+    scop:performer ops:persons_4558514 .
+
+ops:performance_roles_15284925 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551946 ;
+    scop:performance ops:performances_15284920 ;
+    scop:performer ops:persons_5961821 .
+
+ops:performance_roles_15284926 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551947 ;
+    scop:performance ops:performances_15284920 ;
+    scop:performer ops:persons_4679984 .
+
+ops:performance_roles_15284927 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551948 ;
+    scop:performance ops:performances_15284920 ;
+    scop:performer ops:persons_15284449 .
+
+ops:performance_roles_15284929 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551941 ;
+    scop:performance ops:performances_15284928 ;
+    scop:performer ops:persons_15284898 .
+
+ops:performance_roles_15284930 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551942 ;
+    scop:performance ops:performances_15284928 ;
+    scop:performer ops:persons_4692118 .
+
+ops:performance_roles_15284931 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551943 ;
+    scop:performance ops:performances_15284928 ;
+    scop:performer ops:persons_15284900 .
+
+ops:performance_roles_15284932 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551945 ;
+    scop:performance ops:performances_15284928 ;
+    scop:performer ops:persons_4558514 .
+
+ops:performance_roles_15284933 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551946 ;
+    scop:performance ops:performances_15284928 ;
+    scop:performer ops:persons_5961821 .
+
+ops:performance_roles_15284934 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551947 ;
+    scop:performance ops:performances_15284928 ;
+    scop:performer ops:persons_4679984 .
+
+ops:performance_roles_15284935 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551948 ;
+    scop:performance ops:performances_15284928 ;
+    scop:performer ops:persons_15284449 .
+
+ops:performance_roles_15284937 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551941 ;
+    scop:performance ops:performances_15284936 ;
+    scop:performer ops:persons_15284898 .
+
+ops:performance_roles_15284938 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551942 ;
+    scop:performance ops:performances_15284936 ;
+    scop:performer ops:persons_4692118 .
+
+ops:performance_roles_15284939 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551943 ;
+    scop:performance ops:performances_15284936 ;
+    scop:performer ops:persons_15284900 .
+
+ops:performance_roles_15284940 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551945 ;
+    scop:performance ops:performances_15284936 ;
+    scop:performer ops:persons_4558514 .
+
+ops:performance_roles_15284941 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551946 ;
+    scop:performance ops:performances_15284936 ;
+    scop:performer ops:persons_5961821 .
+
+ops:performance_roles_15284942 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551947 ;
+    scop:performance ops:performances_15284936 ;
+    scop:performer ops:persons_4679984 .
+
+ops:performance_roles_15284943 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551948 ;
+    scop:performance ops:performances_15284936 ;
+    scop:performer ops:persons_15284449 .
+
+ops:performance_roles_15866329 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227687 ;
+    scop:performance ops:performances_15866328 ;
+    scop:performer ops:persons_5222521 .
+
+ops:performance_roles_15866330 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227688 ;
+    scop:performance ops:performances_15866328 ;
+    scop:performer ops:persons_5227670 .
+
+ops:performance_roles_15866331 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227689 ;
+    scop:performance ops:performances_15866328 ;
+    scop:performer ops:persons_977257 .
+
+ops:performance_roles_15866332 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227690 ;
+    scop:performance ops:performances_15866328 ;
+    scop:performer ops:persons_881262 .
+
+ops:performance_roles_15866333 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227691 ;
+    scop:performance ops:performances_15866328 ;
+    scop:performer ops:persons_5224343 .
+
+ops:performance_roles_15866334 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227692 ;
+    scop:performance ops:performances_15866328 ;
+    scop:performer ops:persons_5227666 .
+
+ops:performance_roles_15866335 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227693 ;
+    scop:performance ops:performances_15866328 ;
+    scop:performer ops:persons_5227668 .
+
+ops:performance_roles_15866336 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227694 ;
+    scop:performance ops:performances_15866328 ;
+    scop:performer ops:persons_5227729 .
+
+ops:performance_roles_15866337 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227695 ;
+    scop:performance ops:performances_15866328 ;
+    scop:performer ops:persons_3630274 .
+
+ops:performance_roles_15866338 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227696 ;
+    scop:performance ops:performances_15866328 ;
+    scop:performer ops:persons_5222587 .
+
+ops:performance_roles_15866339 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227697 ;
+    scop:performance ops:performances_15866328 ;
+    scop:performer ops:persons_5239781 .
+
+ops:performance_roles_15866340 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227698 ;
+    scop:performance ops:performances_15866328 ;
+    scop:performer ops:persons_5227757 .
+
+ops:performance_roles_23454466 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227688 ;
+    scop:performance ops:performances_5228877 ;
+    scop:performer ops:persons_5227670 .
+
+ops:performance_roles_23454467 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227689 ;
+    scop:performance ops:performances_5228877 ;
+    scop:performer ops:persons_977257 .
+
+ops:performance_roles_23454468 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227690 ;
+    scop:performance ops:performances_5228877 ;
+    scop:performer ops:persons_881262 .
+
+ops:performance_roles_23454469 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227691 ;
+    scop:performance ops:performances_5228877 ;
+    scop:performer ops:persons_5224343 .
+
+ops:performance_roles_23454470 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227692 ;
+    scop:performance ops:performances_5228877 ;
+    scop:performer ops:persons_5227666 .
+
+ops:performance_roles_23454471 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227693 ;
+    scop:performance ops:performances_5228877 ;
+    scop:performer ops:persons_5227668 .
+
+ops:performance_roles_23454472 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227694 ;
+    scop:performance ops:performances_5228877 ;
+    scop:performer ops:persons_5227729 .
+
+ops:performance_roles_23454473 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227698 ;
+    scop:performance ops:performances_5228877 ;
+    scop:performer ops:persons_5227757 .
+
+ops:performance_roles_23492853 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582981 ;
+    scop:performance ops:performances_3584087 ;
+    scop:performer ops:persons_3576691 .
+
+ops:performance_roles_23492854 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582982 ;
+    scop:performance ops:performances_3584087 ;
+    scop:performer ops:persons_3561880 .
+
+ops:performance_roles_23492855 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582983 ;
+    scop:performance ops:performances_3584087 ;
+    scop:performer ops:persons_3582456 .
+
+ops:performance_roles_23492856 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582984 ;
+    scop:performance ops:performances_3584087 ;
+    scop:performer ops:persons_3582478 .
+
+ops:performance_roles_23492857 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582985 ;
+    scop:performance ops:performances_3584087 ;
+    scop:performer ops:persons_3569216 .
+
+ops:performance_roles_23492858 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582986 ;
+    scop:performance ops:performances_3584087 ;
+    scop:performer ops:persons_3576378 .
+
+ops:performance_roles_23492859 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582987 ;
+    scop:performance ops:performances_3584087 ;
+    scop:performer ops:persons_3558528 .
+
+ops:performance_roles_23492860 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582988 ;
+    scop:performance ops:performances_3584087 ;
+    scop:performer ops:persons_3578006 .
+
+ops:performance_roles_23492861 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582989 ;
+    scop:performance ops:performances_3584087 ;
+    scop:performer ops:persons_3584114 .
+
+ops:performance_roles_23492862 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582990 ;
+    scop:performance ops:performances_3584087 ;
+    scop:performer ops:persons_3584106 .
+
+ops:performance_roles_23492863 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582991 ;
+    scop:performance ops:performances_3584087 ;
+    scop:performer ops:persons_3566447 .
+
+ops:performance_roles_23492864 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582992 ;
+    scop:performance ops:performances_3584087 ;
+    scop:performer ops:persons_3582464 .
+
+ops:performance_roles_23492865 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582993 ;
+    scop:performance ops:performances_3584087 ;
+    scop:performer ops:persons_3582451 .
+
+ops:performance_roles_23492866 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582994 ;
+    scop:performance ops:performances_3584087 ;
+    scop:performer ops:persons_3559318 .
+
+ops:performance_roles_23492867 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582995 ;
+    scop:performance ops:performances_3584087 ;
+    scop:performer ops:persons_3561877 .
+
+ops:performance_roles_23493648 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582981 ;
+    scop:performance ops:performances_3584132 ;
+    scop:performer ops:persons_3576691 .
+
+ops:performance_roles_23493649 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582982 ;
+    scop:performance ops:performances_3584132 ;
+    scop:performer ops:persons_3561880 .
+
+ops:performance_roles_23493650 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582983 ;
+    scop:performance ops:performances_3584132 ;
+    scop:performer ops:persons_3582456 .
+
+ops:performance_roles_23493651 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582984 ;
+    scop:performance ops:performances_3584132 ;
+    scop:performer ops:persons_3582478 .
+
+ops:performance_roles_23493652 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582985 ;
+    scop:performance ops:performances_3584132 ;
+    scop:performer ops:persons_3569216 .
+
+ops:performance_roles_23493653 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582986 ;
+    scop:performance ops:performances_3584132 ;
+    scop:performer ops:persons_3576378 .
+
+ops:performance_roles_23493654 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582987 ;
+    scop:performance ops:performances_3584132 ;
+    scop:performer ops:persons_3558528 .
+
+ops:performance_roles_23493655 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582988 ;
+    scop:performance ops:performances_3584132 ;
+    scop:performer ops:persons_3578006 .
+
+ops:performance_roles_23493656 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582989 ;
+    scop:performance ops:performances_3584132 ;
+    scop:performer ops:persons_3584114 .
+
+ops:performance_roles_23493657 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582990 ;
+    scop:performance ops:performances_3584132 ;
+    scop:performer ops:persons_3584106 .
+
+ops:performance_roles_23493658 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582991 ;
+    scop:performance ops:performances_3584132 ;
+    scop:performer ops:persons_3566447 .
+
+ops:performance_roles_23493659 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582992 ;
+    scop:performance ops:performances_3584132 ;
+    scop:performer ops:persons_3582464 .
+
+ops:performance_roles_23493660 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582993 ;
+    scop:performance ops:performances_3584132 ;
+    scop:performer ops:persons_3582451 .
+
+ops:performance_roles_23493661 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582994 ;
+    scop:performance ops:performances_3584132 ;
+    scop:performer ops:persons_3559318 .
+
+ops:performance_roles_23493662 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582995 ;
+    scop:performance ops:performances_3584132 ;
+    scop:performer ops:persons_3561877 .
+
+ops:performance_roles_23493696 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582981 ;
+    scop:performance ops:performances_3584148 ;
+    scop:performer ops:persons_3576691 .
+
+ops:performance_roles_23493697 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582982 ;
+    scop:performance ops:performances_3584148 ;
+    scop:performer ops:persons_3561880 .
+
+ops:performance_roles_23493698 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582983 ;
+    scop:performance ops:performances_3584148 ;
+    scop:performer ops:persons_3582456 .
+
+ops:performance_roles_23493699 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582984 ;
+    scop:performance ops:performances_3584148 ;
+    scop:performer ops:persons_3582478 .
+
+ops:performance_roles_23493700 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582985 ;
+    scop:performance ops:performances_3584148 ;
+    scop:performer ops:persons_3569216 .
+
+ops:performance_roles_23493701 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582986 ;
+    scop:performance ops:performances_3584148 ;
+    scop:performer ops:persons_3576378 .
+
+ops:performance_roles_23493702 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582987 ;
+    scop:performance ops:performances_3584148 ;
+    scop:performer ops:persons_3558528 .
+
+ops:performance_roles_23493703 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582988 ;
+    scop:performance ops:performances_3584148 ;
+    scop:performer ops:persons_3578006 .
+
+ops:performance_roles_23493704 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582989 ;
+    scop:performance ops:performances_3584148 ;
+    scop:performer ops:persons_3584114 .
+
+ops:performance_roles_23493705 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582990 ;
+    scop:performance ops:performances_3584148 ;
+    scop:performer ops:persons_3584106 .
+
+ops:performance_roles_23493706 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582991 ;
+    scop:performance ops:performances_3584148 ;
+    scop:performer ops:persons_3566447 .
+
+ops:performance_roles_23493707 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582992 ;
+    scop:performance ops:performances_3584148 ;
+    scop:performer ops:persons_3582464 .
+
+ops:performance_roles_23493708 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582993 ;
+    scop:performance ops:performances_3584148 ;
+    scop:performer ops:persons_3582451 .
+
+ops:performance_roles_23493709 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582994 ;
+    scop:performance ops:performances_3584148 ;
+    scop:performer ops:persons_3559318 .
+
+ops:performance_roles_23493710 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_3582995 ;
+    scop:performance ops:performances_3584148 ;
+    scop:performer ops:persons_3561877 .
+
+ops:performance_roles_4551969 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551941 ;
+    scop:performance ops:performances_4551949 ;
+    scop:performer ops:persons_4550706 .
+
+ops:performance_roles_4551970 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551942 ;
+    scop:performance ops:performances_4551949 ;
+    scop:performer ops:persons_4550651 .
+
+ops:performance_roles_4551971 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551943 ;
+    scop:performance ops:performances_4551949 ;
+    scop:performer ops:persons_4550708 .
+
+ops:performance_roles_4551972 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551944 ;
+    scop:performance ops:performances_4551949 ;
+    scop:performer ops:persons_4550661 .
+
+ops:performance_roles_4551973 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551945 ;
+    scop:performance ops:performances_4551949 ;
+    scop:performer ops:persons_4550648 .
+
+ops:performance_roles_4551974 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551946 ;
+    scop:performance ops:performances_4551949 ;
+    scop:performer ops:persons_4550710 .
+
+ops:performance_roles_4551975 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551947 ;
+    scop:performance ops:performances_4551949 ;
+    scop:performer ops:persons_4550712 .
+
+ops:performance_roles_4551976 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_4551948 ;
+    scop:performance ops:performances_4551949 ;
+    scop:performer ops:persons_4550714 .
+
+ops:performance_roles_5379521 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5379510 ;
+    scop:performance ops:performances_5379518 ;
+    scop:performer ops:persons_5247283 .
+
+ops:performance_roles_5379522 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5379511 ;
+    scop:performance ops:performances_5379518 ;
+    scop:performer ops:persons_5247274 .
+
+ops:performance_roles_5379523 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5379512 ;
+    scop:performance ops:performances_5379518 ;
+    scop:performer ops:persons_5247279 .
+
+ops:performance_roles_5379524 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5379513 ;
+    scop:performance ops:performances_5379518 ;
+    scop:performer ops:persons_5246659 .
+
+ops:performance_roles_5379525 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5379514 ;
+    scop:performance ops:performances_5379518 ;
+    scop:performer ops:persons_5247400 .
+
+ops:performance_roles_5379526 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5379515 ;
+    scop:performance ops:performances_5379518 ;
+    scop:performer ops:persons_5257642 .
+
+ops:performance_roles_5379527 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5379516 ;
+    scop:performance ops:performances_5379518 ;
+    scop:performer ops:persons_5247277 .
+
+ops:performance_roles_5379529 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5379510 ;
+    scop:performance ops:performances_5379528 ;
+    scop:performer ops:persons_5247283 .
+
+ops:performance_roles_5379530 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5379511 ;
+    scop:performance ops:performances_5379528 ;
+    scop:performer ops:persons_5247274 .
+
+ops:performance_roles_5379531 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5379512 ;
+    scop:performance ops:performances_5379528 ;
+    scop:performer ops:persons_5247279 .
+
+ops:performance_roles_5379532 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5379513 ;
+    scop:performance ops:performances_5379528 ;
+    scop:performer ops:persons_5246659 .
+
+ops:performance_roles_5379533 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5379514 ;
+    scop:performance ops:performances_5379528 ;
+    scop:performer ops:persons_5247400 .
+
+ops:performance_roles_5379534 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5379515 ;
+    scop:performance ops:performances_5379528 ;
+    scop:performer ops:persons_5257642 .
+
+ops:performance_roles_5379535 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5379516 ;
+    scop:performance ops:performances_5379528 ;
+    scop:performer ops:persons_5247277 .
+
+ops:performance_roles_5379544 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5379510 ;
+    scop:performance ops:performances_5379543 ;
+    scop:performer ops:persons_5247283 .
+
+ops:performance_roles_5379545 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5379511 ;
+    scop:performance ops:performances_5379543 ;
+    scop:performer ops:persons_5247274 .
+
+ops:performance_roles_5379546 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5379512 ;
+    scop:performance ops:performances_5379543 ;
+    scop:performer ops:persons_5247279 .
+
+ops:performance_roles_5379547 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5379513 ;
+    scop:performance ops:performances_5379543 ;
+    scop:performer ops:persons_5246659 .
+
+ops:performance_roles_5379548 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5379514 ;
+    scop:performance ops:performances_5379543 ;
+    scop:performer ops:persons_5247400 .
+
+ops:performance_roles_5379549 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5379515 ;
+    scop:performance ops:performances_5379543 ;
+    scop:performer ops:persons_5257642 .
+
+ops:performance_roles_5379550 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5379516 ;
+    scop:performance ops:performances_5379543 ;
+    scop:performer ops:persons_5247277 .
+
+ops:performance_roles_5722723 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227687 ;
+    scop:performance ops:performances_5227699 ;
+    scop:performer ops:persons_5222521 .
+
+ops:performance_roles_5722724 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227688 ;
+    scop:performance ops:performances_5227699 ;
+    scop:performer ops:persons_5227670 .
+
+ops:performance_roles_5722725 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227689 ;
+    scop:performance ops:performances_5227699 ;
+    scop:performer ops:persons_977257 .
+
+ops:performance_roles_5722726 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227690 ;
+    scop:performance ops:performances_5227699 ;
+    scop:performer ops:persons_881262 .
+
+ops:performance_roles_5722727 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227691 ;
+    scop:performance ops:performances_5227699 ;
+    scop:performer ops:persons_5224343 .
+
+ops:performance_roles_5722728 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227692 ;
+    scop:performance ops:performances_5227699 ;
+    scop:performer ops:persons_5227666 .
+
+ops:performance_roles_5722729 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227693 ;
+    scop:performance ops:performances_5227699 ;
+    scop:performer ops:persons_5227668 .
+
+ops:performance_roles_5722730 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227694 ;
+    scop:performance ops:performances_5227699 ;
+    scop:performer ops:persons_5227729 .
+
+ops:performance_roles_5722731 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227695 ;
+    scop:performance ops:performances_5227699 ;
+    scop:performer ops:persons_3630274 .
+
+ops:performance_roles_5722732 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227696 ;
+    scop:performance ops:performances_5227699 ;
+    scop:performer ops:persons_5222587 .
+
+ops:performance_roles_5722733 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227697 ;
+    scop:performance ops:performances_5227699 ;
+    scop:performer ops:persons_5227755 .
+
+ops:performance_roles_5722734 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227698 ;
+    scop:performance ops:performances_5227699 ;
+    scop:performer ops:persons_5227757 .
+
+ops:performance_roles_5722828 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227687 ;
+    scop:performance ops:performances_5325621 ;
+    scop:performer ops:persons_5222521 .
+
+ops:performance_roles_5722829 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227688 ;
+    scop:performance ops:performances_5325621 ;
+    scop:performer ops:persons_5227670 .
+
+ops:performance_roles_5722830 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227689 ;
+    scop:performance ops:performances_5325621 ;
+    scop:performer ops:persons_977257 .
+
+ops:performance_roles_5722831 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227690 ;
+    scop:performance ops:performances_5325621 ;
+    scop:performer ops:persons_881262 .
+
+ops:performance_roles_5722832 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227691 ;
+    scop:performance ops:performances_5325621 ;
+    scop:performer ops:persons_5224343 .
+
+ops:performance_roles_5722833 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227692 ;
+    scop:performance ops:performances_5325621 ;
+    scop:performer ops:persons_5227666 .
+
+ops:performance_roles_5722834 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227693 ;
+    scop:performance ops:performances_5325621 ;
+    scop:performer ops:persons_5227668 .
+
+ops:performance_roles_5722835 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227694 ;
+    scop:performance ops:performances_5325621 ;
+    scop:performer ops:persons_5325665 .
+
+ops:performance_roles_5722836 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227695 ;
+    scop:performance ops:performances_5325621 ;
+    scop:performer ops:persons_3630274 .
+
+ops:performance_roles_5722837 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227697 ;
+    scop:performance ops:performances_5325621 ;
+    scop:performer ops:persons_5227755 .
+
+ops:performance_roles_5722838 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5227698 ;
+    scop:performance ops:performances_5325621 ;
+    scop:performer ops:persons_5227757 .
+
+ops:performance_roles_5722839 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5325634 ;
+    scop:performance ops:performances_5325621 ;
+    scop:performer ops:persons_5227673 .
+
+ops:performance_roles_5722840 a scop:PerformanceRole ;
+    scop:compositionRole ops:roles_5325635 ;
+    scop:performance ops:performances_5325621 ;
+    scop:performer ops:persons_5222587 .
+

@@ -1,0 +1,463 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ops: <http://ldf.fi/operasampo/> .
+@prefix scop: <http://ldf.fi/schema/operasampo/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ops:persons_13388604 a scop:Person ;
+    skos:prefLabel "Hausen Charlotte"@fi ;
+    foaf:firstName "Charlotte" ;
+    foaf:surname "Hausen" .
+
+ops:persons_14318964 a scop:Person ;
+    skos:prefLabel "Becker Friedrich"@fi ;
+    foaf:firstName "Friedrich" ;
+    foaf:surname "Becker" .
+
+ops:persons_14318966 a scop:Person ;
+    skos:prefLabel "Becker Annette"@fi ;
+    foaf:firstName "Annette" ;
+    foaf:surname "Becker" .
+
+ops:persons_14318972 a scop:Person ;
+    skos:prefLabel "Neder (Mad.)"@fi ;
+    foaf:surname "Neder" .
+
+ops:persons_14318978 a scop:Person ;
+    skos:prefLabel "Neder (Herr)"@fi ;
+    foaf:surname "Neder" .
+
+ops:persons_14319746 a scop:Person ;
+    skos:prefLabel "Schultz Arnold"@fi ;
+    foaf:firstName "Arnold" ;
+    foaf:surname "Schultz" .
+
+ops:persons_14320760 a scop:Person ;
+    skos:prefLabel "Görcke (Herr)"@fi ;
+    foaf:surname "Görcke" .
+
+ops:persons_15284449 a scop:Person ;
+    skos:prefLabel "Weckman Götha"@fi ;
+    foaf:firstName "Götha" ;
+    foaf:surname "Weckman" .
+
+ops:persons_15284898 a scop:Person ;
+    skos:prefLabel "Beck William"@fi ;
+    foaf:firstName "William" ;
+    foaf:surname "Beck" .
+
+ops:persons_15284900 a scop:Person ;
+    skos:prefLabel "Perttilä M."@fi ;
+    foaf:firstName "M." ;
+    foaf:surname "Perttilä" .
+
+ops:persons_3558528 a scop:Person ;
+    scop:dateOfBirth "1835" ;
+    scop:dateOfDeath "1884" ;
+    skos:prefLabel "Gustafsson Johan Gustaf"@fi ;
+    foaf:firstName "Johan Gustaf" ;
+    foaf:surname "Gustafsson" .
+
+ops:persons_3559182 a scop:Person ;
+    scop:additionalInfo "Schantz johti teatteriorkesteria Helsingissä ja järjesti teatteriesitysten lisäksi vuosina 1860–1861 konsertteja."@fi ;
+    scop:dateOfBirth "1835" ;
+    scop:dateOfDeath "1865" ;
+    skos:prefLabel "von Schantz John Filip"@fi ;
+    foaf:firstName "John Filip" ;
+    foaf:surname "von Schantz" .
+
+ops:persons_3559190 a scop:Person ;
+    scop:dateOfBirth "1818" ;
+    scop:dateOfDeath "1891" ;
+    skos:prefLabel "Litolff Henry Charles"@fi ;
+    foaf:firstName "Henry Charles" ;
+    foaf:surname "Litolff" .
+
+ops:persons_3559318 a scop:Person ;
+    scop:additionalInfo "Gift med Johan Gustaf Gistavsson, skådespelare."@fi ;
+    scop:dateOfBirth "1832" ;
+    skos:prefLabel "Gustafsson (f. Zeth) Emilie Sofie"@fi ;
+    foaf:firstName "Emilie Sofie" ;
+    foaf:surname "Gustafsson (f. Zeth)" .
+
+ops:persons_3561877 a scop:Person ;
+    skos:prefLabel "Agardh Charlotte"@fi ;
+    foaf:firstName "Charlotte" ;
+    foaf:surname "Agardh" .
+
+ops:persons_3561880 a scop:Person ;
+    scop:dateOfBirth "1833" ;
+    scop:dateOfDeath "1924" ;
+    skos:prefLabel "Åhman Louise"@fi ;
+    foaf:firstName "Louise" ;
+    foaf:surname "Åhman" .
+
+ops:persons_3566447 a scop:Person ;
+    scop:dateOfBirth "1832" ;
+    scop:dateOfDeath "1892" ;
+    skos:prefLabel "Agardh Hjalmar"@fi ;
+    foaf:firstName "Hjalmar" ;
+    foaf:surname "Agardh" .
+
+ops:persons_3569216 a scop:Person ;
+    scop:dateOfBirth "1836" ;
+    skos:prefLabel "Apelbom Harald Fredrik"@fi ;
+    foaf:firstName "Harald Fredrik" ;
+    foaf:surname "Apelbom" .
+
+ops:persons_3576378 a scop:Person ;
+    scop:dateOfBirth "1840" ;
+    scop:dateOfDeath "1888" ;
+    skos:prefLabel "Mallander Gustaf Richard"@fi ;
+    foaf:firstName "Gustaf Richard" ;
+    foaf:surname "Mallander" .
+
+ops:persons_3576691 a scop:Person ;
+    scop:dateOfBirth "1832" ;
+    scop:dateOfDeath "1883" ;
+    skos:prefLabel "Åhman Sven Albert"@fi ;
+    foaf:firstName "Sven Albert" ;
+    foaf:surname "Åhman" .
+
+ops:persons_3577097 a scop:Person ;
+    scop:dateOfBirth "1823" ;
+    scop:dateOfDeath "1877" ;
+    skos:prefLabel "Barrière Théodore"@fi ;
+    foaf:firstName "Théodore" ;
+    foaf:surname "Barrière" .
+
+ops:persons_3577933 a scop:Person ;
+    skos:prefLabel "Åhman Wilhelm"@fi ;
+    foaf:firstName "Wilhelm" ;
+    foaf:surname "Åhman" .
+
+ops:persons_3578006 a scop:Person ;
+    skos:prefLabel "Wolter Gustaf"@fi ;
+    foaf:firstName "Gustaf" ;
+    foaf:surname "Wolter" .
+
+ops:persons_3579997 a scop:Person ;
+    scop:dateOfBirth "1842" ;
+    skos:prefLabel "Littmarck Carl Gottfried Reinhold"@fi ;
+    foaf:firstName "Carl Gottfried Reinhold" ;
+    foaf:surname "Littmarck" .
+
+ops:persons_3582451 a scop:Person ;
+    skos:prefLabel "Strandqvist Johan Peter"@fi ;
+    foaf:firstName "Johan Peter" ;
+    foaf:surname "Strandqvist" .
+
+ops:persons_3582456 a scop:Person ;
+    skos:prefLabel "Schwabitz Leontine"@fi ;
+    foaf:firstName "Leontine" ;
+    foaf:surname "Schwabitz" .
+
+ops:persons_3582464 a scop:Person ;
+    skos:prefLabel "Widgren Jenny"@fi ;
+    foaf:firstName "Jenny" ;
+    foaf:surname "Widgren" .
+
+ops:persons_3582478 a scop:Person ;
+    skos:prefLabel "Fehrnström Augusta"@fi ;
+    foaf:firstName "Augusta" ;
+    foaf:surname "Fehrnström" .
+
+ops:persons_3582963 a scop:Person ;
+    skos:prefLabel "Seyfried Ignas"@fi ;
+    foaf:firstName "Ignas" ;
+    foaf:surname "Seyfried" .
+
+ops:persons_3582965 a scop:Person ;
+    scop:dateOfBirth "1771" ;
+    scop:dateOfDeath "1820" ;
+    skos:prefLabel "Stegmayer Mätthaus"@fi ;
+    foaf:firstName "Mätthaus" ;
+    foaf:surname "Stegmayer" .
+
+ops:persons_3584106 a scop:Person ;
+    skos:prefLabel "Fristedt Ludvig"@fi ;
+    foaf:firstName "Ludvig" ;
+    foaf:surname "Fristedt" .
+
+ops:persons_3584114 a scop:Person ;
+    skos:prefLabel "Wahlgren (Herr)"@fi ;
+    foaf:surname "Wahlgren" .
+
+ops:persons_3604492 a scop:Person ;
+    skos:prefLabel "Emanuel Nathan B."@fi ;
+    foaf:firstName "Nathan B." ;
+    foaf:surname "Emanuel" .
+
+ops:persons_3630274 a scop:Person ;
+    skos:prefLabel "Lindfors Adolf"@fi ;
+    foaf:firstName "Adolf" ;
+    foaf:surname "Lindfors" .
+
+ops:persons_3766641 a scop:Person ;
+    scop:dateOfBirth "1806" ;
+    scop:dateOfDeath "1865" ;
+    skos:prefLabel "Dumanoir (Pinel) Philippe François"@fi ;
+    foaf:firstName "Philippe François" ;
+    foaf:surname "Dumanoir (Pinel)" .
+
+ops:persons_4368040 a scop:Person ;
+    skos:prefLabel "Weigl Joseph"@fi ;
+    foaf:firstName "Joseph" ;
+    foaf:surname "Weigl" .
+
+ops:persons_4368042 a scop:Person ;
+    skos:prefLabel "Castelli Ignaz Franz"@fi ;
+    foaf:firstName "Ignaz Franz" ;
+    foaf:surname "Castelli" .
+
+ops:persons_4400103 a scop:Person ;
+    skos:prefLabel "d'Ennery Adolphe"@fi ;
+    foaf:firstName "Adolphe" ;
+    foaf:surname "d'Ennery" .
+
+ops:persons_4550648 a scop:Person ;
+    skos:prefLabel "Kusnezowa Maria"@fi ;
+    foaf:firstName "Maria" ;
+    foaf:surname "Kusnezowa" .
+
+ops:persons_4550651 a scop:Person ;
+    skos:prefLabel "Witting E. (Herr)"@fi ;
+    foaf:firstName "E." ;
+    foaf:surname "Witting" .
+
+ops:persons_4550661 a scop:Person ;
+    skos:prefLabel "Friedman (Herr)"@fi ;
+    foaf:surname "Friedman" .
+
+ops:persons_4550670 a scop:Person ;
+    skos:prefLabel "Selenij V."@fi ;
+    foaf:firstName "V." ;
+    foaf:surname "Selenij" .
+
+ops:persons_4550672 a scop:Person ;
+    skos:prefLabel "Zimmermann Mikhail Sergeevich"@fi ;
+    foaf:firstName "Mikhail Sergeevich" ;
+    foaf:surname "Zimmermann" .
+
+ops:persons_4550706 a scop:Person ;
+    skos:prefLabel "Savransky (Herr)"@fi ;
+    foaf:surname "Savransky" .
+
+ops:persons_4550708 a scop:Person ;
+    skos:prefLabel "Schwetz (Herr)"@fi ;
+    foaf:surname "Schwetz" .
+
+ops:persons_4550710 a scop:Person ;
+    skos:prefLabel "Shenshova (Schenschowa) (Fru)"@fi ;
+    foaf:surname "Shenshova (Schenschowa)" .
+
+ops:persons_4550712 a scop:Person ;
+    skos:prefLabel "Molodkowa (Fru)"@fi ;
+    foaf:surname "Molodkowa" .
+
+ops:persons_4550714 a scop:Person ;
+    skos:prefLabel "Saveljeva (Fru)"@fi ;
+    foaf:surname "Saveljeva" .
+
+ops:persons_4551932 a scop:Person ;
+    skos:prefLabel "Massenet Jules"@fi ;
+    foaf:firstName "Jules" ;
+    foaf:surname "Massenet" .
+
+ops:persons_4551937 a scop:Person ;
+    skos:prefLabel "Gallet Louis"@fi ;
+    foaf:firstName "Louis" ;
+    foaf:surname "Gallet" .
+
+ops:persons_4552076 a scop:Person ;
+    skos:prefLabel "Sola Wäinö"@fi ;
+    foaf:firstName "Wäinö" ;
+    foaf:surname "Sola" .
+
+ops:persons_4558514 a scop:Person ;
+    skos:prefLabel "Ackté Aino"@fi ;
+    foaf:firstName "Aino" ;
+    foaf:surname "Ackté" .
+
+ops:persons_4558522 a scop:Person ;
+    skos:prefLabel "Korander Ida"@fi ;
+    foaf:firstName "Ida" ;
+    foaf:surname "Korander" .
+
+ops:persons_4566177 a scop:Person ;
+    skos:prefLabel "Somersalmi Yrjö"@fi ;
+    foaf:firstName "Yrjö" ;
+    foaf:surname "Somersalmi" .
+
+ops:persons_4679984 a scop:Person ;
+    skos:prefLabel "Baltscheffskij Sigrid"@fi ;
+    foaf:firstName "Sigrid" ;
+    foaf:surname "Baltscheffskij" .
+
+ops:persons_4692118 a scop:Person ;
+    scop:dateOfBirth "1885" ;
+    scop:dateOfDeath "1970" ;
+    scop:placeOfBirth "Stockholm" ;
+    scop:placeOfDeath "Stockholm" ;
+    skos:prefLabel "Hyltén-Cavallius Ragnar"@fi ;
+    foaf:firstName "Ragnar" ;
+    foaf:surname "Hyltén-Cavallius" .
+
+ops:persons_4717435 a scop:Person ;
+    scop:dateOfBirth "05.08.1868" ;
+    scop:dateOfDeath "17.02.1924" ;
+    scop:placeOfBirth "Helsinki" ;
+    scop:placeOfDeath "Oitti" ;
+    skos:prefLabel "Merikanto Oskar"@fi ;
+    foaf:firstName "Oskar" ;
+    foaf:surname "Merikanto" .
+
+ops:persons_5222521 a scop:Person ;
+    skos:prefLabel "Ahlberg Axel"@fi ;
+    foaf:firstName "Axel" ;
+    foaf:surname "Ahlberg" .
+
+ops:persons_5222587 a scop:Person ;
+    skos:prefLabel "Rautio Alex"@fi ;
+    foaf:firstName "Alex" ;
+    foaf:surname "Rautio" .
+
+ops:persons_5224343 a scop:Person ;
+    skos:prefLabel "Stenberg Emeli"@fi ;
+    foaf:firstName "Emeli" ;
+    foaf:surname "Stenberg" .
+
+ops:persons_5227666 a scop:Person ;
+    skos:prefLabel "Borg Inez"@fi ;
+    foaf:firstName "Inez" ;
+    foaf:surname "Borg" .
+
+ops:persons_5227668 a scop:Person ;
+    skos:prefLabel "Kajanus (née Kurikka) Lilli (Elisabeth)"@fi ;
+    foaf:firstName "Lilli (Elisabeth)" ;
+    foaf:surname "Kajanus (née Kurikka)" .
+
+ops:persons_5227670 a scop:Person ;
+    skos:prefLabel "Vallenius Otto"@fi ;
+    foaf:firstName "Otto" ;
+    foaf:surname "Vallenius" .
+
+ops:persons_5227673 a scop:Person ;
+    skos:prefLabel "Salmi Kustaa"@fi ;
+    foaf:firstName "Kustaa" ;
+    foaf:surname "Salmi" .
+
+ops:persons_5227729 a scop:Person ;
+    skos:prefLabel "Järnefelt (née Swan) Saimi"@fi ;
+    foaf:firstName "Saimi" ;
+    foaf:surname "Järnefelt (née Swan)" .
+
+ops:persons_5227755 a scop:Person ;
+    skos:prefLabel "Kilpi (oik. Frisk) Kaarlo"@fi ;
+    foaf:firstName "Kaarlo" ;
+    foaf:surname "Kilpi (oik. Frisk)" .
+
+ops:persons_5227757 a scop:Person ;
+    skos:prefLabel "Falck Emil"@fi ;
+    foaf:firstName "Emil" ;
+    foaf:surname "Falck" .
+
+ops:persons_5239781 a scop:Person ;
+    skos:prefLabel "Lattu Iisakki"@fi ;
+    foaf:firstName "Iisakki" ;
+    foaf:surname "Lattu" .
+
+ops:persons_5246487 a scop:Person ;
+    skos:prefLabel "Duma Domenica A."@fi ;
+    foaf:firstName "Domenica A." ;
+    foaf:surname "Duma" .
+
+ops:persons_5246659 a scop:Person ;
+    skos:prefLabel "Dumani G."@fi ;
+    foaf:firstName "G." ;
+    foaf:surname "Dumani" .
+
+ops:persons_5247274 a scop:Person ;
+    skos:prefLabel "Delle-Fornaci Orazio"@fi ;
+    foaf:firstName "Orazio" ;
+    foaf:surname "Delle-Fornaci" .
+
+ops:persons_5247277 a scop:Person ;
+    skos:prefLabel "Curini N."@fi ;
+    foaf:firstName "N." ;
+    foaf:surname "Curini" .
+
+ops:persons_5247279 a scop:Person ;
+    skos:prefLabel "Ferraioli Luigi"@fi ;
+    foaf:firstName "Luigi" ;
+    foaf:surname "Ferraioli" .
+
+ops:persons_5247283 a scop:Person ;
+    skos:prefLabel "Bruno Matilda"@fi ;
+    foaf:firstName "Matilda" ;
+    foaf:surname "Bruno" .
+
+ops:persons_5247400 a scop:Person ;
+    skos:prefLabel "Lazzarini L."@fi ;
+    foaf:firstName "L." ;
+    foaf:surname "Lazzarini" .
+
+ops:persons_5257642 a scop:Person ;
+    skos:prefLabel "Miller Nikolai"@fi ;
+    foaf:firstName "Nikolai" ;
+    foaf:surname "Miller" .
+
+ops:persons_5266986 a scop:Person ;
+    skos:prefLabel "Fistulari G. Ia."@fi ;
+    foaf:firstName "G. Ia." ;
+    foaf:surname "Fistulari" .
+
+ops:persons_5325665 a scop:Person ;
+    skos:prefLabel "Österman Maikki"@fi ;
+    foaf:firstName "Maikki" ;
+    foaf:surname "Österman" .
+
+ops:persons_5484798 a scop:Person ;
+    skos:prefLabel "Vigna Arturo"@fi ;
+    foaf:firstName "Arturo" ;
+    foaf:surname "Vigna" .
+
+ops:persons_5519937 a scop:Person ;
+    skos:prefLabel "Somersalmi (née Rosvall) Aili"@fi ;
+    foaf:firstName "Aili" ;
+    foaf:surname "Somersalmi (née Rosvall)" .
+
+ops:persons_5849702 a scop:Person ;
+    skos:prefLabel "Romano Virgilio"@fi ;
+    foaf:firstName "Virgilio" ;
+    foaf:surname "Romano" .
+
+ops:persons_5961821 a scop:Person ;
+    skos:prefLabel "Parmas Dagmar"@fi ;
+    foaf:firstName "Dagmar" ;
+    foaf:surname "Parmas" .
+
+ops:persons_6098077 a scop:Person ;
+    skos:prefLabel "Fohström Ossian"@fi ;
+    foaf:firstName "Ossian" ;
+    foaf:surname "Fohström" .
+
+ops:persons_881262 a scop:Person ;
+    skos:prefLabel "Pesonen Taavi"@fi ;
+    foaf:firstName "Taavi" ;
+    foaf:surname "Pesonen" .
+
+ops:persons_892371 a scop:Person ;
+    skos:prefLabel "Achté (Strömer) Emmy"@fi ;
+    foaf:firstName "Emmy" ;
+    foaf:surname "Achté (Strömer)" .
+
+ops:persons_892519 a scop:Person ;
+    skos:prefLabel "Bergbom Kaarlo"@fi ;
+    foaf:firstName "Kaarlo" ;
+    foaf:surname "Bergbom" .
+
+ops:persons_977257 a scop:Person ;
+    skos:prefLabel "Aspegrén August Alfred"@fi ;
+    foaf:firstName "August Alfred" ;
+    foaf:surname "Aspegrén" .
+

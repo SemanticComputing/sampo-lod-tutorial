@@ -1,0 +1,55 @@
+@prefix ops: <http://ldf.fi/operasampo/> .
+@prefix scop: <http://ldf.fi/schema/operasampo/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ops:places_1042694 a scop:Place ;
+    scop:city "Helsinki"@fi ;
+    scop:country "Suomi"@fi ;
+    skos:prefLabel "Nya Teatern"@fi .
+
+ops:places_13084198 a scop:Place ;
+    scop:additionalInfo "1827–1860 Carl Ludvig Engelin suunnittelema Esplanadinpuistossa sijainnut teatterirakennus.<br><br>Esplanadi-teatteri oli Helsingin ensimmäinen varsinainen teatterirakennus. Puisen teatterin suunnitteli Carl Ludvig Engel, ja se valmistui 1827 Esplanadin puistoon Korkeavuorenkadun ja nykyisen Ruotsalaisen teatterin väliin. Teatterissa esiintyivät kiertävät ulkomaiset seurueet. Paikkaluku oli alun perin noin 450 seisomapaikat mukaan lukien. Sekä näyttämöä että katsomoa laajennettiin mm. vuonna 1849, jolloin katsomopaikkoja oli hieman yli 600. Pian sen jälkeen, kun Nya Theatern oli valmistunut Esplanadin päähän 1860, Engelin teatteri purettiin ja siirrettiin ns. Espoon tulliin, jossa se avattiin Arkadia-teatterina 1861."@fi ;
+    scop:city "Helsinki"@fi ;
+    scop:country "Suomi"@fi ;
+    skos:prefLabel "Esplanadi-teatteri"@fi .
+
+ops:places_14908134 a scop:Place ;
+    scop:additionalInfo "Åbo teaterhus (Turun teatteritalo) Kauppatorin laidalla vihittiin käyttöön 1839 suunnittelijoina Pehr Johan Gylich ja fasadien osalta Carl Ludvig Engel. Lähes samalla paikalla oli sijainnut jo aiemmin teatteri, mutta puinen rakennus oli tuhoutunut Turun palossa 1827. Istumakartan mukaan uudessa kiviteatterissa oli 438 katsomopaikkaa. Vuonna 1881 syttyi myös tässä rakennuksessa tulipalo, joka tuhosi sisäosat täysin. Ulkoseinät säästyivät palossa kuitenkin ilman suurempia vaurioita. Tuhoutuneiden osien suunnittelusta vastasi arkkitehti Carl Johan von Heideken. Teatteri avattiin uudelleen vuonna 1882. Teatteri toimi vierailevien seurueiden näyttämönä koko 1800-luvun. Vuodesta 1902 alkoi kehitys kohti vakinaista kotimaista teatteria, ensin Svenska inhemska teatern -seurueen tukikohtana. Vuonna 1919 toiminta alkoi nykyisellä nimellä Åbo Svenska Teatern (Turun ruotsalainen teatteri). Rakennuksessa näytteli vuosina 1918–1928 vakituisesti myös Turun Suomalainen Teatteri."@fi ;
+    scop:city "Turku"@fi ;
+    scop:country "Suomi"@fi ;
+    skos:prefLabel "Åbo teaterhus"@fi .
+
+ops:places_3561640 a scop:Place ;
+    scop:additionalInfo "Från och med 1887 Svenska Teatern. 1870-1886 Nya Teatern. 1860-1869 Nya Theatern"@fi ;
+    scop:city "Helsinki"@fi ;
+    scop:country "Suomi"@fi ;
+    skos:prefLabel "Svenska Teatern"@fi .
+
+ops:places_3581756 a scop:Place ;
+    scop:city "Helsinki"@fi ;
+    scop:country "Suomi"@fi ;
+    skos:prefLabel "Nya Theatern"@fi .
+
+ops:places_4332486 a scop:Place ;
+    scop:city "Turku"@fi ;
+    scop:country "Suomi"@fi ;
+    skos:prefLabel "Åbo Svenska Teater"@fi .
+
+ops:places_5229186 a scop:Place ;
+    scop:additionalInfo "Aleksanterin teatteri (alun perin Venäjän valtiollinen Aleksanterin teatteri Helsingissä) valmistui Bulevardin ja Albertinkadun kulmatontille 1879. Teatterin suunnitteli eversti Pjotr Benard, sisätilat pääosin arkkitehti Jac. Ahrenberg. Rakennuksessa esiintyivät venäläiset ja ulkomaiset seurueet. Vuosina 1919–1993 siellä toimi Suomalainen Ooppera/Suomen Kansallisooppera. Katsomopaikkoja oli alkuun noin 460. Vuoden 1918 remontissa paikkaluku kasvoi 750:een, kun katsomoon hankittiin kapeammat penkit. Sittemmin paikkaluku on ollut noin 500. Osoite Bulevardi 23–27, Helsinki."@fi ;
+    scop:city "Helsinki"@fi ;
+    scop:country "Suomi"@fi ;
+    skos:prefLabel "Aleksanterin teatteri"@fi .
+
+ops:places_5305134 a scop:Place ;
+    scop:additionalInfo "Suomen Kansallisteatterin graniittirakennus Rautatientorin laidalla valmistui keväällä 1902. Suunnittelusta vastasi arkkitehti Onni Törnqvist (vuodesta 1906 Tarjanne). Arkadia-teatterista uuteen omaan taloon siirtynyt Suomalainen Teatteri muutti samalla nimensä Suomen Kansallisteatteriksi. Suuren näyttämön paikkaluku on noin 900, vuonna 1954 valmistuneen pienen näyttämön noin 300."@fi ;
+    scop:city "Helsinki"@fi ;
+    scop:country "Suomi"@fi ;
+    skos:prefLabel "Suomen Kansallisteatteri"@fi .
+
+ops:places_881100 a scop:Place ;
+    scop:additionalInfo "Arkadia-teatteri koottiin 1861 Engelin suunnitteleman puisen Esplanadi-teatterin materiaaleista ns. Espoon tulliin. Rakennus sijaitsi Helsingissä nykyisen Salomonkadun ja Arkadiankadun kulmassa. Se purettiin 1908, ja nykyään paikalla on punatiilinen ns. Hankkijan talo. Teatterirakennusta käyttivät alkuun ruotsalaiset ja venäläiset seurueet ja vuodesta 1873 myös Suomalainen Teatteri, jonka omistukseen rakennus hankittiin kokonaan 1875. Teatterissa tehtiin mittavia laajennus- ja uudistustöitä 1886. Suomalainen Teatteri toimi Arkadia-teatterissa kevääseen 1902."@fi ;
+    scop:city "Helsinki"@fi ;
+    scop:country "Suomi"@fi ;
+    skos:prefLabel "Arkadia-teatteri"@fi .
+

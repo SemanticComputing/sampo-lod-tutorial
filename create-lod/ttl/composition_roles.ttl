@@ -1,0 +1,246 @@
+@prefix ops: <http://ldf.fi/operasampo/> .
+@prefix scop: <http://ldf.fi/schema/operasampo/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ops:roles_14322592 a scop:Role ;
+    scop:composition ops:compositions_4368045 ;
+    skos:prefLabel "Graf Wallstein, ein reicher Gutsbesitzen in Deutschland"@fi .
+
+ops:roles_14322593 a scop:Role ;
+    scop:composition ops:compositions_4368045 ;
+    skos:prefLabel "Durrmann, sein Verwalter"@fi .
+
+ops:roles_14322594 a scop:Role ;
+    scop:composition ops:compositions_4368045 ;
+    skos:prefLabel "Richard Boll, ein Schweizer Bauer"@fi .
+
+ops:roles_14322595 a scop:Role ;
+    scop:composition ops:compositions_4368045 ;
+    skos:prefLabel "Gertrude, sein Weib"@fi .
+
+ops:roles_14322596 a scop:Role ;
+    scop:composition ops:compositions_4368045 ;
+    skos:prefLabel "Emmeline ihre Tochter"@fi .
+
+ops:roles_14322597 a scop:Role ;
+    scop:composition ops:compositions_4368045 ;
+    skos:prefLabel "Jacob Friburg, ein Hirte von den Schweizer-Alpen"@fi .
+
+ops:roles_14322598 a scop:Role ;
+    scop:composition ops:compositions_4368045 ;
+    skos:prefLabel "Paul, Durrmanns Vetter"@fi .
+
+ops:roles_3582981 a scop:Role ;
+    scop:composition ops:compositions_3582979 ;
+    skos:prefLabel "von Borthal"@fi .
+
+ops:roles_3582982 a scop:Role ;
+    scop:composition ops:compositions_3582979 ;
+    skos:prefLabel "Margareta"@fi .
+
+ops:roles_3582983 a scop:Role ;
+    scop:composition ops:compositions_3582979 ;
+    skos:prefLabel "Sophie"@fi .
+
+ops:roles_3582984 a scop:Role ;
+    scop:composition ops:compositions_3582979 ;
+    skos:prefLabel "Kapten Borthal"@fi .
+
+ops:roles_3582985 a scop:Role ;
+    scop:composition ops:compositions_3582979 ;
+    skos:prefLabel "von Littau"@fi .
+
+ops:roles_3582986 a scop:Role ;
+    scop:composition ops:compositions_3582979 ;
+    skos:prefLabel "Pumpernickel"@fi .
+
+ops:roles_3582987 a scop:Role ;
+    scop:composition ops:compositions_3582979 ;
+    skos:prefLabel "Purgantius"@fi .
+
+ops:roles_3582988 a scop:Role ;
+    scop:composition ops:compositions_3582979 ;
+    skos:prefLabel "Bombastus"@fi .
+
+ops:roles_3582989 a scop:Role ;
+    scop:composition ops:compositions_3582979 ;
+    skos:prefLabel "Stöpsel"@fi .
+
+ops:roles_3582990 a scop:Role ;
+    scop:composition ops:compositions_3582979 ;
+    skos:prefLabel "Ichreyer"@fi .
+
+ops:roles_3582991 a scop:Role ;
+    scop:composition ops:compositions_3582979 ;
+    skos:prefLabel "Henrik"@fi .
+
+ops:roles_3582992 a scop:Role ;
+    scop:composition ops:compositions_3582979 ;
+    skos:prefLabel "Babette"@fi .
+
+ops:roles_3582993 a scop:Role ;
+    scop:composition ops:compositions_3582979 ;
+    skos:prefLabel "Sebastian"@fi .
+
+ops:roles_3582994 a scop:Role ;
+    scop:composition ops:compositions_3582979 ;
+    skos:prefLabel "Phillippina"@fi .
+
+ops:roles_3582995 a scop:Role ;
+    scop:composition ops:compositions_3582979 ;
+    skos:prefLabel "Dorothea"@fi .
+
+ops:roles_4551941 a scop:Role ;
+    scop:composition ops:compositions_4551939 ;
+    skos:prefLabel "Athanael, ung munk"@fi .
+
+ops:roles_4551942 a scop:Role ;
+    scop:composition ops:compositions_4551939 ;
+    skos:prefLabel "Nicias, filosof"@fi .
+
+ops:roles_4551943 a scop:Role ;
+    scop:composition ops:compositions_4551939 ;
+    skos:prefLabel "Palémon, gammal munk"@fi .
+
+ops:roles_4551944 a scop:Role ;
+    scop:composition ops:compositions_4551939 ;
+    skos:prefLabel "En väktare"@fi .
+
+ops:roles_4551945 a scop:Role ;
+    scop:composition ops:compositions_4551939 ;
+    skos:prefLabel "Thaïs, kurtisan"@fi .
+
+ops:roles_4551946 a scop:Role ;
+    scop:composition ops:compositions_4551939 ;
+    skos:prefLabel "Crobyle, slafvinna"@fi .
+
+ops:roles_4551947 a scop:Role ;
+    scop:composition ops:compositions_4551939 ;
+    skos:prefLabel "Myrtale, slafvinna"@fi .
+
+ops:roles_4551948 a scop:Role ;
+    scop:composition ops:compositions_4551939 ;
+    skos:prefLabel "Albine, abedissa"@fi .
+
+ops:roles_5227687 a scop:Role ;
+    scop:composition ops:compositions_5227684 ;
+    skos:prefLabel "Kaarlo II, Espanjan kuningas"@en,
+        "Kaarlo II, Espanjan kuningas"@fi,
+        "Kaarlo II, Espanjan kuningas"@sv .
+
+ops:roles_5227688 a scop:Role ;
+    scop:composition ops:compositions_5227684 ;
+    skos:prefLabel "Don Cesar de Bazan"@en,
+        "Don Cesar de Bazan"@fi,
+        "Don Cesar de Bazan"@sv .
+
+ops:roles_5227689 a scop:Role ;
+    scop:composition ops:compositions_5227684 ;
+    skos:prefLabel "Don Diego de Santarem"@en,
+        "Don Diego de Santarem"@fi,
+        "Don Diego de Santarem"@sv .
+
+ops:roles_5227690 a scop:Role ;
+    scop:composition ops:compositions_5227684 ;
+    skos:prefLabel "Markiisi de Montefior"@en,
+        "Markiisi de Montefior"@fi,
+        "Markiisi de Montefior"@sv .
+
+ops:roles_5227691 a scop:Role ;
+    scop:composition ops:compositions_5227684 ;
+    skos:prefLabel "Markisinna de Montefior"@en,
+        "Markisinna de Montefior"@fi,
+        "Markisinna de Montefior"@sv .
+
+ops:roles_5227692 a scop:Role ;
+    scop:composition ops:compositions_5227684 ;
+    skos:prefLabel "Maritana, katulaulajatar"@en,
+        "Maritana, katulaulajatar"@fi,
+        "Maritana, katulaulajatar"@sv .
+
+ops:roles_5227693 a scop:Role ;
+    scop:composition ops:compositions_5227684 ;
+    skos:prefLabel "Lazarillo"@en,
+        "Lazarillo"@fi,
+        "Lazarillo"@sv .
+
+ops:roles_5227694 a scop:Role ;
+    scop:composition ops:compositions_5227684 ;
+    skos:prefLabel "Perez"@en,
+        "Perez"@fi,
+        "Perez"@sv .
+
+ops:roles_5227695 a scop:Role ;
+    scop:composition ops:compositions_5227684 ;
+    skos:prefLabel "Kapteeni"@en,
+        "Kapteeni"@fi,
+        "Kapteeni"@sv .
+
+ops:roles_5227696 a scop:Role ;
+    scop:composition ops:compositions_5227684 ;
+    skos:prefLabel "Don Alvar"@en,
+        "Don Alvar"@fi,
+        "Don Alvar"@sv .
+
+ops:roles_5227697 a scop:Role ;
+    scop:composition ops:compositions_5227684 ;
+    skos:prefLabel "Soutaja"@en,
+        "Soutaja"@fi,
+        "Soutaja"@sv .
+
+ops:roles_5227698 a scop:Role ;
+    scop:composition ops:compositions_5227684 ;
+    skos:prefLabel "Tuomari"@en,
+        "Tuomari"@fi,
+        "Tuomari"@sv .
+
+ops:roles_5325634 a scop:Role ;
+    scop:composition ops:compositions_5227684 ;
+    skos:prefLabel "Alcalde"@fi .
+
+ops:roles_5325635 a scop:Role ;
+    scop:composition ops:compositions_5227684 ;
+    skos:prefLabel "Upseeri"@fi .
+
+ops:roles_5379510 a scop:Role ;
+    scop:composition ops:compositions_5379491 ;
+    skos:prefLabel "Anita, La Navarraise"@en,
+        "Anita, La Navarraise"@fi,
+        "Anita, La Navarraise"@sv .
+
+ops:roles_5379511 a scop:Role ;
+    scop:composition ops:compositions_5379491 ;
+    skos:prefLabel "Araquil"@en,
+        "Araquil"@fi,
+        "Araquil"@sv .
+
+ops:roles_5379512 a scop:Role ;
+    scop:composition ops:compositions_5379491 ;
+    skos:prefLabel "Garrido"@en,
+        "Garrido"@fi,
+        "Garrido"@sv .
+
+ops:roles_5379513 a scop:Role ;
+    scop:composition ops:compositions_5379491 ;
+    skos:prefLabel "Remigio"@en,
+        "Remigio"@fi,
+        "Remigio"@sv .
+
+ops:roles_5379514 a scop:Role ;
+    scop:composition ops:compositions_5379491 ;
+    skos:prefLabel "Ramon"@en,
+        "Ramon"@fi,
+        "Ramon"@sv .
+
+ops:roles_5379515 a scop:Role ;
+    scop:composition ops:compositions_5379491 ;
+    skos:prefLabel "Bustamente"@en,
+        "Bustamente"@fi,
+        "Bustamente"@sv .
+
+ops:roles_5379516 a scop:Role ;
+    scop:composition ops:compositions_5379491 ;
+    skos:prefLabel "Soldier"@en,
+        "Sotilas"@fi,
+        "Soldat"@sv .
+

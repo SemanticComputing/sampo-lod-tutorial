@@ -1,0 +1,42 @@
+@prefix ops: <http://ldf.fi/operasampo/> .
+@prefix scop: <http://ldf.fi/schema/operasampo/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ops:compositions_3559192 a scop:Composition ;
+    scop:composedBy ops:persons_3559190 ;
+    scop:originalTitle "Maximilian Robespierre" ;
+    skos:prefLabel "Maximilian Robespierre"@fi .
+
+ops:compositions_3582979 a scop:Composition ;
+    scop:composedBy ops:persons_3582963 ;
+    scop:libretist ops:persons_3582965 ;
+    skos:prefLabel "Rochus Pumpernickel"@fi .
+
+ops:compositions_3646664 a scop:Composition ;
+    scop:composedBy ops:persons_3559190 ;
+    scop:libretist ops:persons_3577097 ;
+    skos:prefLabel "La Boite de Pandore"@fi .
+
+ops:compositions_4368045 a scop:Composition ;
+    scop:composedBy ops:persons_4368040 ;
+    scop:libretist ops:persons_4368042 ;
+    scop:originalTitle "Die Schweizer Familie" ;
+    skos:prefLabel "Die Schweizer Familie"@fi .
+
+ops:compositions_4551939 a scop:Composition ;
+    scop:composedBy ops:persons_4551932 ;
+    scop:libretist ops:persons_4551937 ;
+    scop:originalTitle "Thaïs" ;
+    skos:prefLabel "Thaïs"@fi .
+
+ops:compositions_5227684 a scop:Composition ;
+    scop:additionalTitle "Kuningas ja katulaulajatar"@fi ;
+    scop:composedBy ops:persons_4551932 ;
+    scop:libretist ops:persons_3766641,
+        ops:persons_4400103 ;
+    skos:prefLabel "Don Cesar de Bazan"@fi .
+
+ops:compositions_5379491 a scop:Composition ;
+    scop:composedBy ops:persons_4551932 ;
+    skos:prefLabel "La Navarraise"@fi .
+

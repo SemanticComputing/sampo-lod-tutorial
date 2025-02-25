@@ -1,0 +1,461 @@
+@prefix ops: <http://ldf.fi/operasampo/> .
+@prefix scop: <http://ldf.fi/schema/operasampo/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ops:performances_13389100 a scop:Performance ;
+    scop:additionalInfo "<b>Den Schweiziska famillen.</b> Lyrical opera in 3 acts, freely reworked after Fransyskan by Castelli. The spectacle begins at 6 pm. Source: Finlands Allmänna Tidning no 119, 12.10.1830."@en,
+        "<b>Den Schweiziska famillen.</b> Lyrisk opera i 3 akter, fritt omarbetad efter Fransyskan av Castelli. Spektaklet börjas klockan 6 eftermiddagen. Lähde: Finlands Allmänna Tidning no 119, 12.10.1830."@fi ;
+    scop:composition ops:compositions_4368045 ;
+    scop:conductedBy ops:persons_nan ;
+    scop:directedBy ops:persons_nan ;
+    scop:performanceDate "1830-10-12"^^xsd:date ;
+    scop:performedIn ops:places_13084198 ;
+    scop:producedBy ops:producers_nan ;
+    scop:season "1830–1831" ;
+    scop:tickets "1 riksdaler 24 skilling – 24 skilling.<br><br>2 rubel – 75 kopek."@fi ;
+    skos:prefLabel "Den Schweiziska famillen (1830-10-12)"@fi .
+
+ops:performances_14322586 a scop:Performance ;
+    scop:additionalInfo "<b>Der Schweizer-Familie.</b> Opera in 3 acts. In the roles of farmers Mademoiselles Belendorf, Heintze, Görcke, demoiselles Natalie Görcke, Josephine Görcke, along with Misters Martinelli, Alberling, Schubart, Sakowsky, Ollberg, Kosolowsky, Verus. Source: Mathias Weckström's Collection, National Library of Finland."@en,
+        "<b>Die Schweizer-Familie.</b> Oper in 3 akten. Maanviljeliöiden rooleissa rouvat Belendorf, Heintze, Görcke, neidit Natalie Görcke, Josephine Görcke, sekä herrat Martinelli, Alberling, Schubart, Sakowsky, Ollberg, Kosolowsky, Verus. Lähde: Mathias Weckströmin julistekokoelma, Kansalliskirjasto."@fi ;
+    scop:composition ops:compositions_4368045 ;
+    scop:conductedBy ops:persons_nan ;
+    scop:directedBy ops:persons_14319746.0 ;
+    scop:performanceDate "1833-12-20"^^xsd:date ;
+    scop:performedIn ops:places_13084198 ;
+    scop:producedBy ops:producers_14318984.0 ;
+    scop:season "1833–1834" ;
+    skos:prefLabel "Die Schweizer-Familie (1833-12-20)"@fi .
+
+ops:performances_15284444 a scop:Performance ;
+    scop:additionalInfo "<b>Thaïs.</b> Premiere, 7:30pm. Opera in 3 acts. Source: Aino Ackté-Jalander's archive, National Library of Finland, Coll. 4.53."@en,
+        "<b>Thaïs.</b> Ensi-ilta, klo 19:30. Opera i 3 akter. Lähde: Aino Ackté-Jalanderin arkisto, Kansalliskirjasto, Coll. 4.53."@fi ;
+    scop:composition ops:compositions_4551939 ;
+    scop:conductedBy ops:persons_6098077.0 ;
+    scop:directedBy ops:persons_892371.0 ;
+    scop:performanceDate "1919-11-03"^^xsd:date ;
+    scop:performedIn ops:places_5305134 ;
+    scop:producedBy ops:producers_4737551.0 ;
+    scop:season "1919–1920" ;
+    skos:prefLabel "Thaïs (1919-11-03)"@fi .
+
+ops:performances_15284912 a scop:Performance ;
+    scop:additionalInfo "<b>Thaïs.</b> 7:30pm. Opera in 3 acts. Source: Aino Ackté-Jalander's archive, National Library of Finland, Coll. 4.53. Helsingin Sanomat no 299 04.11.1919."@en,
+        "<b>Thaïs.</b> Klo 19:30. Opera i 3 akter. Lähde: Aino Ackté-Jalanderin arkisto, Kansalliskirjasto, Coll. 4.53. Helsingin Sanomat no 299 04.11.1919."@fi ;
+    scop:composition ops:compositions_4551939 ;
+    scop:conductedBy ops:persons_6098077.0 ;
+    scop:directedBy ops:persons_892371.0 ;
+    scop:performanceDate "1919-11-05"^^xsd:date ;
+    scop:performedIn ops:places_5305134 ;
+    scop:producedBy ops:producers_4737551.0 ;
+    scop:season "1919–1920" ;
+    skos:prefLabel "Thaïs (1919-11-05)"@fi .
+
+ops:performances_15284920 a scop:Performance ;
+    scop:additionalInfo "<b>Thaïs.</b> 7:30pm. Opera in 3 acts. Source: Aino Ackté-Jalander's archive, National Library of Finland, Coll. 4.53. Helsingin Sanomat no 301 06.11.1919."@en,
+        "<b>Thaïs.</b> Klo 19:30. Opera i 3 akter. Lähde: Aino Ackté-Jalanderin arkisto, Kansalliskirjasto, Coll. 4.53. Helsingin Sanomat no 301 06.11.1919."@fi ;
+    scop:composition ops:compositions_4551939 ;
+    scop:conductedBy ops:persons_6098077.0 ;
+    scop:directedBy ops:persons_892371.0 ;
+    scop:performanceDate "1919-11-07"^^xsd:date ;
+    scop:performedIn ops:places_5305134 ;
+    scop:producedBy ops:producers_4737551.0 ;
+    scop:season "1919–1920" ;
+    scop:tickets "30–7 fmk."@fi ;
+    skos:prefLabel "Thaïs (1919-11-07)"@fi .
+
+ops:performances_15284928 a scop:Performance ;
+    scop:additionalInfo "<b>Thaïs.</b> 7:30pm. Opera in 3 acts. Source: Aino Ackté-Jalander's archive, National Library of Finland, Coll. 4.53. Hufvudstadsbladet no 308 10.11.1919."@en,
+        "<b>Thaïs.</b> Klo 19:30. Opera i 3 akter. Lähde: Aino Ackté-Jalanderin arkisto, Kansalliskirjasto, Coll. 4.53. Hufvudstadsbladet no 308 10.11.1919."@fi ;
+    scop:composition ops:compositions_4551939 ;
+    scop:conductedBy ops:persons_6098077.0 ;
+    scop:directedBy ops:persons_892371.0 ;
+    scop:performanceDate "1919-11-10"^^xsd:date ;
+    scop:performedIn ops:places_5305134 ;
+    scop:producedBy ops:producers_4737551.0 ;
+    scop:season "1919–1920" ;
+    scop:tickets "30–7 fmk."@fi ;
+    skos:prefLabel "Thaïs (1919-11-10)"@fi .
+
+ops:performances_15284936 a scop:Performance ;
+    scop:additionalInfo "<b>Thaïs.</b> 7:30pm. Opera in 3 acts. Source: Aino Ackté-Jalander's archive, National Library of Finland, Coll. 4.53. Hufvudstadsbladet no 310 12.11.1919."@en,
+        "<b>Thaïs.</b> Klo 19:30. Opera i 3 akter. Lähde: Aino Ackté-Jalanderin arkisto, Kansalliskirjasto, Coll. 4.53. Hufvudstadsbladet no 310 12.11.1919."@fi ;
+    scop:composition ops:compositions_4551939 ;
+    scop:conductedBy ops:persons_6098077.0 ;
+    scop:directedBy ops:persons_892371.0 ;
+    scop:performanceDate "1919-11-12"^^xsd:date ;
+    scop:performedIn ops:places_5305134 ;
+    scop:producedBy ops:producers_4737551.0 ;
+    scop:season "1919–1920" ;
+    scop:tickets "30–7 fmk."@fi ;
+    skos:prefLabel "Thaïs (1919-11-12)"@fi .
+
+ops:performances_15866328 a scop:Performance ;
+    scop:additionalInfo "<b>Kuningas ja katulaulajatar.</b> Opéra comique in five acts. 19–22 o'clock. Source: Sanomia Turusta 22.10.1886."@en,
+        "<b>Kuningas ja katulaulajatar.</b> Laulunäytelmä 5:ssä näytöksessä. Klo 19–22. Lähde: Sanomia Turusta 22.10.1886."@fi ;
+    scop:composition ops:compositions_5227684 ;
+    scop:conductedBy ops:persons_nan ;
+    scop:directedBy ops:persons_892519.0 ;
+    scop:performanceDate "1886-10-22"^^xsd:date ;
+    scop:performedIn ops:places_14908134 ;
+    scop:producedBy ops:producers_4637245.0 ;
+    scop:season "1885–1886" ;
+    skos:prefLabel "Kuningas ja katulaulajatar (1886-10-22)"@fi .
+
+ops:performances_16012221 a scop:Performance ;
+    scop:additionalInfo "<b>Rochus Pumpernickel.</b> Farce with song in 3 acts. Performed by actors from nya Theatern i Stockholm. Source: Helsingfors Tidningar no 57 26.07.1843."@en,
+        "<b>Rochus Pumpernickel.</b> Fars med sång i 3 akter. Uppföres af sujetter från nya Theatern i Stockholm. Lähde: Helsingfors Tidningar no 57 26.07.1843."@fi ;
+    scop:composition ops:compositions_3582979 ;
+    scop:conductedBy ops:persons_nan ;
+    scop:directedBy ops:persons_nan ;
+    scop:performanceDate "1843-07-28"^^xsd:date ;
+    scop:performedIn ops:places_13084198 ;
+    scop:producedBy ops:producers_nan ;
+    scop:season "1843–1844" ;
+    skos:prefLabel "Rochus Pumpernickel (1843-07-28)"@fi .
+
+ops:performances_16024163 a scop:Performance ;
+    scop:additionalInfo "<b>Rochus Pumpernickel.</b> Comedy in 3 acts with song. Translation by Askenbom. Source: Finlands Allmänna Tidning no 103 06.05.1845."@en,
+        "<b>Rochus Pumpernickel.</b> Komedi i 3 akter med sång. Översättning av Askenbom. Lähde: Finlands Allmänna Tidning no 103 06.05.1845."@fi ;
+    scop:composition ops:compositions_3582979 ;
+    scop:conductedBy ops:persons_nan ;
+    scop:directedBy ops:persons_nan ;
+    scop:performanceDate "1845-05-08"^^xsd:date ;
+    scop:performedIn ops:places_13084198 ;
+    scop:producedBy ops:producers_4340976.0 ;
+    scop:season "1844–1845" ;
+    skos:prefLabel "Rochus Pumpernickel (1845-05-08)"@fi .
+
+ops:performances_17458009 a scop:Performance ;
+    scop:additionalInfo "<b>Rochus Pumpernickel.</b> Farce with song in 3 acts, divided in to 6 tableaus. Source: Finlands Allmänna Tidning no 297 23.12.1857."@en,
+        "<b>Rochus Pumpernickel.</b> Farce med sång i 3 akter, afdelade i 6 tablåer. Lähde: Finlands Allmänna Tidning no 297 23.12.1857."@fi ;
+    scop:composition ops:compositions_3582979 ;
+    scop:conductedBy ops:persons_nan ;
+    scop:directedBy ops:persons_nan ;
+    scop:performanceDate "1857-12-26"^^xsd:date ;
+    scop:performedIn ops:places_13084198 ;
+    scop:producedBy ops:producers_4362267.0 ;
+    scop:season "1857–1858" ;
+    skos:prefLabel "Rochus Pumpernickel (1857-12-26)"@fi .
+
+ops:performances_17458010 a scop:Performance ;
+    scop:additionalInfo "<b>Rochus Pumpernickel.</b> Farce with song in 3 acts, divided in to 6 tableaus. Source: Finlands Allmänna Tidning no 297 23.12.1857."@en,
+        "<b>Rochus Pumpernickel.</b> Farce med sång i 3 akter, afdelade i 6 tablåer. Lähde: Finlands Allmänna Tidning no 297 23.12.1857."@fi ;
+    scop:composition ops:compositions_3582979 ;
+    scop:conductedBy ops:persons_nan ;
+    scop:directedBy ops:persons_nan ;
+    scop:performanceDate "1857-12-28"^^xsd:date ;
+    scop:performedIn ops:places_13084198 ;
+    scop:producedBy ops:producers_4362267.0 ;
+    scop:season "1857–1858" ;
+    skos:prefLabel "Rochus Pumpernickel (1857-12-28)"@fi .
+
+ops:performances_17458011 a scop:Performance ;
+    scop:additionalInfo "<b>Rochus Pumpernickel.</b> Farce with song in 3 acts, divided in to 6 tableaus. Source: Finlands Allmänna Tidning no 300 29.12.1857."@en,
+        "<b>Rochus Pumpernickel.</b> Farce med sång i 3 akter, afdelade i 6 tablåer. Lähde: Finlands Allmänna Tidning no 300 29.12.1857."@fi ;
+    scop:composition ops:compositions_3582979 ;
+    scop:conductedBy ops:persons_nan ;
+    scop:directedBy ops:persons_nan ;
+    scop:performanceDate "1857-12-30"^^xsd:date ;
+    scop:performedIn ops:places_13084198 ;
+    scop:producedBy ops:producers_4362267.0 ;
+    scop:season "1857–1858" ;
+    skos:prefLabel "Rochus Pumpernickel (1857-12-30)"@fi .
+
+ops:performances_3559194 a scop:Performance ;
+    scop:additionalInfo "<b>Robespierre.</b><br>Föreställningen började kl. 19.30.<br>Program:<br>Ouverture till \"Robespierre\" av Littolf<br>Introduktion och kör ur Lohengrin av Richard Wagner.<br>Thema med variationer för trumpet av Reissel, spelad av herr Gatterman, medlem i orkestern.<br>Final ur operan Don Juan (3:dje akten) av Mozart.<br>Paus<br>Ouvertyre till operan Jessonda av Spohr.<br>Aufforderung zum Tanz av C. M. von Weber.<br>Ouverture till Entführung aus dem Serail av Mozart.<br>Ungersk storm-marsch av Franz Litzt.<br>Paus<br>Inte en smula jaloux, komedi med sång i 1 akt.<br><br>Källa: SLSA1270"@fi ;
+    scop:composition ops:compositions_3559192 ;
+    scop:conductedBy ops:persons_3559182.0 ;
+    scop:directedBy ops:persons_nan ;
+    scop:performanceDate "1861-12-13"^^xsd:date ;
+    scop:performedIn ops:places_3581756 ;
+    scop:producedBy ops:producers_3559198.0 ;
+    scop:season "1861–1862" ;
+    scop:tickets "50 kopek - 10 kopek.(\"Vanliga fribiljetter gälla för aftonen.)"@fi ;
+    skos:prefLabel "Robespierre (1861-12-13)"@fi .
+
+ops:performances_3584087 a scop:Performance ;
+    scop:additionalInfo "<b>Rochus Pumpernickel.</b>"@fi ;
+    scop:composition ops:compositions_3582979 ;
+    scop:conductedBy ops:persons_3579997.0 ;
+    scop:directedBy ops:persons_3577933.0 ;
+    scop:performanceDate "1868-12-30"^^xsd:date ;
+    scop:performedIn ops:places_3581756 ;
+    scop:producedBy ops:producers_nan ;
+    scop:season "1868–1869" ;
+    skos:prefLabel "Rochus Pumpernickel (1868-12-30)"@fi .
+
+ops:performances_3584132 a scop:Performance ;
+    scop:additionalInfo "<b>Rochus Pumpernickel.</b>"@fi ;
+    scop:composition ops:compositions_3582979 ;
+    scop:conductedBy ops:persons_3579997.0 ;
+    scop:directedBy ops:persons_3577933.0 ;
+    scop:performanceDate "1869-01-01"^^xsd:date ;
+    scop:performedIn ops:places_3581756 ;
+    scop:producedBy ops:producers_nan ;
+    scop:season "1868–1869" ;
+    skos:prefLabel "Rochus Pumpernickel (1869-01-01)"@fi .
+
+ops:performances_3584148 a scop:Performance ;
+    scop:additionalInfo "<b>Rochus Pumpernickel.</b>"@fi ;
+    scop:composition ops:compositions_3582979 ;
+    scop:conductedBy ops:persons_3579997.0 ;
+    scop:directedBy ops:persons_3577933.0 ;
+    scop:performanceDate "1869-01-06"^^xsd:date ;
+    scop:performedIn ops:places_3581756 ;
+    scop:producedBy ops:producers_nan ;
+    scop:season "1868–1869" ;
+    skos:prefLabel "Rochus Pumpernickel (1869-01-06)"@fi .
+
+ops:performances_3646668 a scop:Performance ;
+    scop:additionalInfo "<b>La Boite de Pandora.</b><br>Endast ouverturen. Därefter: \"De Onyttige\" av E. Cadol. Kl.19-22."@fi ;
+    scop:composition ops:compositions_3646664 ;
+    scop:conductedBy ops:persons_3604492.0 ;
+    scop:directedBy ops:persons_3576691.0 ;
+    scop:performanceDate "1877-11-09"^^xsd:date ;
+    scop:performedIn ops:places_1042694 ;
+    scop:producedBy ops:producers_nan ;
+    scop:season "1877–1878" ;
+    scop:tickets "Vanliga priser, program 10 penni."@fi ;
+    skos:prefLabel "La Boite de Pandora (1877-11-09)"@fi .
+
+ops:performances_3646690 a scop:Performance ;
+    scop:additionalInfo "<b>La Boite de Pandore.</b><br>Endast ouverturen. Därefter: \"De Onyttige\" av E. Cadol. Kl.19-22."@fi ;
+    scop:composition ops:compositions_3646664 ;
+    scop:conductedBy ops:persons_3604492.0 ;
+    scop:directedBy ops:persons_3576691.0 ;
+    scop:performanceDate "1877-11-12"^^xsd:date ;
+    scop:performedIn ops:places_1042694 ;
+    scop:producedBy ops:producers_nan ;
+    scop:season "1877–1878" ;
+    scop:tickets "Vanliga priser, program 10 penni."@fi ;
+    skos:prefLabel "La Boite de Pandore (1877-11-12)"@fi .
+
+ops:performances_3646691 a scop:Performance ;
+    scop:additionalInfo "<b>La Boite de Pandore.</b><br>Endast ouverturen. Därefter: \"De Onyttige\" av E. Cadol. Kl.19-22."@fi ;
+    scop:composition ops:compositions_3646664 ;
+    scop:conductedBy ops:persons_3604492.0 ;
+    scop:directedBy ops:persons_3576691.0 ;
+    scop:performanceDate "1877-11-14"^^xsd:date ;
+    scop:performedIn ops:places_1042694 ;
+    scop:producedBy ops:producers_nan ;
+    scop:season "1877–1878" ;
+    scop:tickets "Vanliga priser, program 10 penni."@fi ;
+    skos:prefLabel "La Boite de Pandore (1877-11-14)"@fi .
+
+ops:performances_3646699 a scop:Performance ;
+    scop:additionalInfo "<b>La Boite de Pandore.</b><br>Endast ouverturen. Därefter: \"De Onyttige\" av E. Cadol. Kl.19-22."@fi ;
+    scop:composition ops:compositions_3646664 ;
+    scop:conductedBy ops:persons_3604492.0 ;
+    scop:directedBy ops:persons_3576691.0 ;
+    scop:performanceDate "1877-11-18"^^xsd:date ;
+    scop:performedIn ops:places_1042694 ;
+    scop:producedBy ops:producers_nan ;
+    scop:season "1877–1878" ;
+    scop:tickets "Vanliga priser, program 10 penni."@fi ;
+    skos:prefLabel "La Boite de Pandore (1877-11-18)"@fi .
+
+ops:performances_3646722 a scop:Performance ;
+    scop:additionalInfo "<b>La Boite de Pandore.</b><br>Endast ouverturen. Därefter: \"De Onyttige\" av E. Cadol. Kl.19-22."@fi ;
+    scop:composition ops:compositions_3646664 ;
+    scop:conductedBy ops:persons_3604492.0 ;
+    scop:directedBy ops:persons_3576691.0 ;
+    scop:performanceDate "1877-11-30"^^xsd:date ;
+    scop:performedIn ops:places_1042694 ;
+    scop:producedBy ops:producers_nan ;
+    scop:season "1877–1878" ;
+    scop:tickets "Vanliga priser, program 10 penni."@fi ;
+    skos:prefLabel "La Boite de Pandore (1877-11-30)"@fi .
+
+ops:performances_4368047 a scop:Performance ;
+    scop:additionalInfo "<b>Schweitzerfamiljen.</b> Skådespelarnas namn uppges inte på affischen. Till förmån för bildandet av ett musikaliskt sällskap härstädes (Åbo). Källa: Åbo Teaters affischer."@fi ;
+    scop:composition ops:compositions_4368045 ;
+    scop:conductedBy ops:persons_nan ;
+    scop:directedBy ops:persons_nan ;
+    scop:performanceDate "1860-04-20"^^xsd:date ;
+    scop:performedIn ops:places_4332486 ;
+    scop:producedBy ops:producers_4368031.0 ;
+    scop:season "1859–1860" ;
+    skos:prefLabel "Schweitzerfamiljen (1860-04-20)"@fi .
+
+ops:performances_4551949 a scop:Performance ;
+    scop:additionalInfo "<b>Thaïs.</b> Director Zimmermans Russian opera troupe with the artists from the Imperial Opera in St. Petersburg Mrs Maria Kusnezowa and Mr E. Witting. Source: SLSA1270."@en,
+        "<b>Thaïs.</b> Direktör Zimmermans ryska operasällskap med benäget biträde af artisterna vid Kejserliga operan i S:t Petersburg Fru Maria Kusnezowa och H:r E. Witting. Källa: SLSA1270."@fi ;
+    scop:composition ops:compositions_4551939 ;
+    scop:conductedBy ops:persons_4550670.0 ;
+    scop:directedBy ops:persons_4550672.0 ;
+    scop:performanceDate "1910-11-18"^^xsd:date ;
+    scop:performedIn ops:places_3561640 ;
+    scop:producedBy ops:producers_4550696.0 ;
+    scop:season "1910–1911" ;
+    scop:tickets "12–1,50 Fmk."@fi ;
+    skos:prefLabel "Thaïs (1910-11-18)"@fi .
+
+ops:performances_5227699 a scop:Performance ;
+    scop:additionalInfo "<b>Kuningas ja katulaulajatar.</b> Opéra comique in five acts. Source: Weckström's collection."@en,
+        "<b>Kuningas ja katulaulajatar.</b> Laulunäytelmä 5:ssä näytöksessä. Lähde: Weckströmin kokoelma."@fi ;
+    scop:composition ops:compositions_5227684 ;
+    scop:conductedBy ops:persons_nan ;
+    scop:directedBy ops:persons_892519.0 ;
+    scop:performanceDate "1886-01-29"^^xsd:date ;
+    scop:performedIn ops:places_881100 ;
+    scop:producedBy ops:producers_4637245.0 ;
+    scop:season "1885–1886" ;
+    scop:tickets "3,00–0,50 mk."@fi ;
+    skos:prefLabel "Kuningas ja katulaulajatar (1886-01-29)"@fi .
+
+ops:performances_5228877 a scop:Performance ;
+    scop:additionalInfo "<b>Kuningas ja katulaulajatar.</b> With the favorable support of Mrs. E. Achté, Mr. R. Kajanus, Mr. A. Ojanperä and friends of music. Higher prices. Opéra comique in five acts. Only second act. Source: Weckström's collection."@en,
+        "<b>Kuningas ja katulaulajatar.</b> <br>Rouva E. Achtén, herra R. Kajanus'en, herra A. Ojanperän ja musiikki-ystäväin suosiollisella avulla. Korotetut hinnat. Laulunäytelmä 5:ssä näytöksessä. Vain toinen näytös. Lähde: Weckströmin kokoelma."@fi ;
+    scop:composition ops:compositions_5227684 ;
+    scop:conductedBy ops:persons_nan ;
+    scop:directedBy ops:persons_892519.0 ;
+    scop:performanceDate "1886-02-18"^^xsd:date ;
+    scop:performedIn ops:places_881100 ;
+    scop:producedBy ops:producers_4637245.0 ;
+    scop:season "1885–1886" ;
+    scop:tickets "3,00–0,50 mk."@fi ;
+    skos:prefLabel "Kuningas ja katulaulajatar (1886-02-18)"@fi .
+
+ops:performances_5325621 a scop:Performance ;
+    scop:additionalInfo "<b>Kuningas ja katulaulajatar.</b> Opéra comique in five acts. Source: The National Library of Finland, ephemera."@en,
+        "<b>Kuningas ja katulaulajatar.</b> Laulunäytelmä 5:ssä näytöksessä. Lähde: Kansalliskirjasto, pienpainatteet."@fi ;
+    scop:composition ops:compositions_5227684 ;
+    scop:conductedBy ops:persons_nan ;
+    scop:directedBy ops:persons_892519.0 ;
+    scop:performanceDate "1885-05-29"^^xsd:date ;
+    scop:performedIn ops:places_881100 ;
+    scop:producedBy ops:producers_4637245.0 ;
+    scop:season "1884–1885" ;
+    scop:tickets "3,00–0,50 mk."@fi ;
+    skos:prefLabel "Kuningas ja katulaulajatar (1885-05-29)"@fi .
+
+ops:performances_5379518 a scop:Performance ;
+    scop:additionalInfo "<b>La Navarraise</b><br>The same evening also La favorita (Act 3 and 4).<br>Performance date according to the Julian calendar Wednesday 16.10.1896 at 19.30."@en,
+        "<b>La Navarraise</b><br>Samana iltana myös La favorita (kolmas ja neljäs näytös). Esitys juliaanisen kalenterin mukaan keskiviikkona 16.10.1896 klo 19.30."@fi ;
+    scop:composition ops:compositions_5379491 ;
+    scop:conductedBy ops:persons_5266986.0 ;
+    scop:directedBy ops:persons_5246487.0 ;
+    scop:performanceDate "1896-10-28"^^xsd:date ;
+    scop:performedIn ops:places_5229186 ;
+    scop:producedBy ops:producers_5246503.0 ;
+    scop:season "1896–1897" ;
+    scop:tickets "1Mk-8Mk."@en,
+        "1Mk-8Mk."@fi ;
+    skos:prefLabel "La Navarraise (1896-10-28)"@fi .
+
+ops:performances_5379528 a scop:Performance ;
+    scop:additionalInfo "<b>La Navarraise</b><br>The same evening also Pagliacci.<br>Performance date according to the Julian calendar Saturday 19.10.1896 at 19.30."@en,
+        "<b>La Navarraise</b><br>Samana iltana myös Palgiacci. Esitys juliaanisen kalenterin mukaan lauantaina 19.10.1896 klo 19.30."@fi ;
+    scop:composition ops:compositions_5379491 ;
+    scop:conductedBy ops:persons_5266986.0 ;
+    scop:directedBy ops:persons_5246487.0 ;
+    scop:performanceDate "1896-10-31"^^xsd:date ;
+    scop:performedIn ops:places_5229186 ;
+    scop:producedBy ops:producers_5246503.0 ;
+    scop:season "1896–1897" ;
+    scop:tickets "75pk-7Mk."@en,
+        "75p-7Mk."@fi ;
+    skos:prefLabel "La Navarraise (1896-10-31)"@fi .
+
+ops:performances_5379543 a scop:Performance ;
+    scop:additionalInfo "<b>La Navarraise</b><br>The same evening also Il Barbiere di Siviglia..<br>Performance date according to the Julian calendar Sunday 27.10.1896 at 19.30."@en,
+        "<b>La Navarraise</b><br>Samana iltana myös Il Barbiere di Siviglia. Esitys juliaanisen kalenterin mukaan sunnuntaina 27.10.1896 klo 19.30."@fi ;
+    scop:composition ops:compositions_5379491 ;
+    scop:conductedBy ops:persons_5266986.0 ;
+    scop:directedBy ops:persons_5246487.0 ;
+    scop:performanceDate "1896-11-08"^^xsd:date ;
+    scop:performedIn ops:places_5229186 ;
+    scop:producedBy ops:producers_5246503.0 ;
+    scop:season "1896–1897" ;
+    scop:tickets "75pk-7Mk."@en,
+        "75p-7Mk."@fi ;
+    skos:prefLabel "La Navarraise (1896-11-08)"@fi .
+
+ops:performances_5849602 a scop:Performance ;
+    scop:additionalInfo "<b>Thaïs.</b> Premiere. Opera in 3 acts. Sola I. Hufvudstadsbladet 1910 no 98. Helsingin Kaiku no 14 09.04.1910."@en,
+        "<b>Thaïs.</b> Ensi-ilta. 3-näytöksinen ooppera. Lähde: Sola I. Hufvudstadsbladet 1910 no 98, Helsingin Kaiku no 14 09.04.1910."@fi ;
+    scop:composition ops:compositions_4551939 ;
+    scop:conductedBy ops:persons_5484798.0 ;
+    scop:directedBy ops:persons_3630274.0 ;
+    scop:performanceDate "1910-04-13"^^xsd:date ;
+    scop:performedIn ops:places_5305134 ;
+    scop:producedBy ops:producers_5799106.0 ;
+    scop:season "1909–1910" ;
+    skos:prefLabel "Thaïs (1910-04-13)"@fi .
+
+ops:performances_5849744 a scop:Performance ;
+    scop:additionalInfo "<b>Thaïs.</b> Opera in 3 acts. Sola I. Hufvudstadsbladet 1910 no 98. Helsingin Kaiku no 14 09.04.1910."@en,
+        "<b>Thaïs.</b> 3-näytöksinen ooppera. Lähde: Sola I. Hufvudstadsbladet 1910 no 98. Helsingin Kaiku no 14 09.04.1910."@fi ;
+    scop:composition ops:compositions_4551939 ;
+    scop:conductedBy ops:persons_5484798.0 ;
+    scop:directedBy ops:persons_3630274.0 ;
+    scop:performanceDate "1910-04-15"^^xsd:date ;
+    scop:performedIn ops:places_5305134 ;
+    scop:producedBy ops:producers_5799106.0 ;
+    scop:season "1909–1910" ;
+    skos:prefLabel "Thaïs (1910-04-15)"@fi .
+
+ops:performances_5849759 a scop:Performance ;
+    scop:additionalInfo "<b>Thaïs.</b> Opera in 3 acts. Sola I. Hufvudstadsbladet 1910 no 98. Helsingin Kaiku no 14 09.04.1910."@en,
+        "<b>Thaïs.</b> 3-näytöksinen ooppera. Lähde: Sola I. Hufvudstadsbladet 1910 no 98. Helsingin Kaiku no 14 09.04.1910."@fi ;
+    scop:composition ops:compositions_4551939 ;
+    scop:conductedBy ops:persons_5484798.0 ;
+    scop:directedBy ops:persons_3630274.0 ;
+    scop:performanceDate "1910-04-16"^^xsd:date ;
+    scop:performedIn ops:places_5305134 ;
+    scop:producedBy ops:producers_5799106.0 ;
+    scop:season "1909–1910" ;
+    skos:prefLabel "Thaïs (1910-04-16)"@fi .
+
+ops:performances_5849763 a scop:Performance ;
+    scop:additionalInfo "<b>Thaïs.</b> Opera in 3 acts. Sola I. Hufvudstadsbladet 1910 no 98. Helsingin Kaiku no 14 09.04.1910."@en,
+        "<b>Thaïs.</b> 3-näytöksinen ooppera. Lähde: Sola I. Hufvudstadsbladet 1910 no 98. Helsingin Kaiku no 14 09.04.1910."@fi ;
+    scop:composition ops:compositions_4551939 ;
+    scop:conductedBy ops:persons_5484798.0 ;
+    scop:directedBy ops:persons_3630274.0 ;
+    scop:performanceDate "1910-04-18"^^xsd:date ;
+    scop:performedIn ops:places_5305134 ;
+    scop:producedBy ops:producers_5799106.0 ;
+    scop:season "1909–1910" ;
+    skos:prefLabel "Thaïs (1910-04-18)"@fi .
+
+ops:performances_5849769 a scop:Performance ;
+    scop:additionalInfo "<b>Thaïs.</b> Opera in 3 acts. Sola I. Hufvudstadsbladet 1910 no 98. Helsingin Kaiku no 14 09.04.1910."@en,
+        "<b>Thaïs.</b> 3-näytöksinen ooppera. Lähde: Sola I. Hufvudstadsbladet 1910 no 98. Helsingin Kaiku no 14 09.04.1910."@fi ;
+    scop:composition ops:compositions_4551939 ;
+    scop:conductedBy ops:persons_5484798.0 ;
+    scop:directedBy ops:persons_3630274.0 ;
+    scop:performanceDate "1910-04-20"^^xsd:date ;
+    scop:performedIn ops:places_5305134 ;
+    scop:producedBy ops:producers_5799106.0 ;
+    scop:season "1909–1910" ;
+    skos:prefLabel "Thaïs (1910-04-20)"@fi .
+
+ops:performances_5849790 a scop:Performance ;
+    scop:additionalInfo "<b>Thaïs.</b> Opera in 3 acts. Sola I. Hufvudstadsbladet 1910 no 98. Helsingin Kaiku no 14 09.04.1910."@en,
+        "<b>Thaïs.</b> 3-näytöksinen ooppera. Lähde: Sola I. Hufvudstadsbladet 1910 no 98. Helsingin Kaiku no 14 09.04.1910."@fi ;
+    scop:composition ops:compositions_4551939 ;
+    scop:conductedBy ops:persons_5484798.0 ;
+    scop:directedBy ops:persons_3630274.0 ;
+    scop:performanceDate "1910-04-21"^^xsd:date ;
+    scop:performedIn ops:places_5305134 ;
+    scop:producedBy ops:producers_5799106.0 ;
+    scop:season "1909–1910" ;
+    skos:prefLabel "Thaïs (1910-04-21)"@fi .
+
+ops:performances_5966266 a scop:Performance ;
+    scop:additionalInfo "<b>Thaïs.</b> The Emperor's court singer Maria Kuznetsova performs for one show. Sold out. Only 2nd act. Also performed scenes from 2nd and 4th act from Eugen Onegin. Assistance from Olga Mamsina and Josef Levik from St. Petersburg Theatre of Musical Drama. Source: HS no 21 1913."@en,
+        "<b>Thaïs.</b> Keisarin kamarilaulajatar Maria Kuznetsova esiintyy, yksi näytäntö. Loppuunmyyty. Vain toinen näytös. Samalla kohtauksia Eugen Onegin 2:sta ja 4:nnestä näytöksestä. Avustajina Olga Mamsina ja Josef Levik Pietarin musiikki-drama teatterista. Lähde: HS no 21 1913."@fi ;
+    scop:composition ops:compositions_4551939 ;
+    scop:conductedBy ops:persons_4717435.0 ;
+    scop:directedBy ops:persons_3630274.0 ;
+    scop:orchestra "Helsingin sinfoniaorkesteri"@fi ;
+    scop:performanceDate "1913-02-03"^^xsd:date ;
+    scop:performedIn ops:places_5305134 ;
+    scop:producedBy ops:producers_4637245.0 ;
+    scop:season "1912–1913" ;
+    scop:tickets "10–2 fmk."@fi ;
+    skos:prefLabel "Thaïs (1913-02-03)"@fi .
+

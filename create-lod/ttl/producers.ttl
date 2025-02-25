@@ -1,0 +1,37 @@
+@prefix ops: <http://ldf.fi/operasampo/> .
+@prefix scop: <http://ldf.fi/schema/operasampo/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ops:producers_14318984 a scop:Producer ;
+    skos:prefLabel "Deutschen Schauspieler-Gesellschaft"@fi .
+
+ops:producers_3559198 a scop:Producer ;
+    scop:additionalInfo "Kompositör och kapellmästare. Ordnade konserter vid Nya teatern 1860-1861."@fi ;
+    skos:prefLabel "Filip von Schantz"@fi .
+
+ops:producers_4340976 a scop:Producer ;
+    skos:prefLabel "Djurströmska sällskapet (Hedvig Charlotta Djurström)"@fi .
+
+ops:producers_4362267 a scop:Producer ;
+    skos:prefLabel "Oscar Anderssons sällskap"@fi .
+
+ops:producers_4368031 a scop:Producer ;
+    skos:prefLabel "Sällskapstheatern"@fi .
+
+ops:producers_4550696 a scop:Producer ;
+    skos:prefLabel "Direktör Zimmermans ryska operasällskap"@fi .
+
+ops:producers_4637245 a scop:Producer ;
+    skos:prefLabel "Suomalainen Teatteri"@fi .
+
+ops:producers_4737551 a scop:Producer ;
+    skos:prefLabel "Aino Ackté"@fi .
+
+ops:producers_5246503 a scop:Producer ;
+    scop:additionalInfo "Italienska operan under ledning af Direktör Nikolai Müller"@fi ;
+    skos:prefLabel "Italian Opera Troup (Nikolai Miller)"@en,
+        "Italienska operan (Nikolai Miller)"@fi .
+
+ops:producers_5799106 a scop:Producer ;
+    skos:prefLabel "Aino Ackté & Edvard Fazer"@fi .
+
