@@ -59,7 +59,7 @@ def create_person_instances():
     graph = Graph()
     bind_namespaces(graph)
 
-    people_file = pd.read_csv('../csv/foc_Person.csv', sep=";")
+    people_file = pd.read_csv('../csv/foc_Person.csv', sep=";", dtype=object)
     
     print("Adding people..")
     for i, row in people_file.iterrows():

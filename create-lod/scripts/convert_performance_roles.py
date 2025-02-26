@@ -18,17 +18,17 @@ def handle_performance_role_row(graph, row):
     graph.add((performanceRoleURI, RDF.type, SCOP.PerformanceRole))
 
     # composition role with compositionRoleId
-    if row['compositionRoleId'] != 0:
+    if not pd.isna(row['compositionRoleId']):
         compositionRoleURI = URIRef('http://ldf.fi/operasampo/roles_' + str(row['compositionRoleId']))
         graph.add((performanceRoleURI, SCOP.compositionRole, compositionRoleURI))
     
     # performance with performanceId
-    if row['performanceId'] != 0:
+    if not pd.isna(row['performanceId']):
         performanceURI = URIRef('http://ldf.fi/operasampo/performances_' + str(row['performanceId']))
         graph.add((performanceRoleURI, SCOP.performance, performanceURI))
     
     # performer of the role with personId
-    if row['personId'] != 0:
+    if not pd.isna(row['personId']):
         personURI = URIRef('http://ldf.fi/operasampo/persons_' + str(row['personId']))
         graph.add((performanceRoleURI, SCOP.performer, personURI))
 
@@ -36,7 +36,7 @@ def create_performance_role_instances():
     graph = Graph()
     bind_namespaces(graph)
 
-    performance_roles_file = pd.read_csv('../csv/foc_PerformanceRole.csv', sep=";")
+    performance_roles_file = pd.read_csv('../csv/foc_PerformanceRole.csv', sep=";", dtype=object)
     
     print("Adding performance roles..")
     for i, row in performance_roles_file.iterrows():

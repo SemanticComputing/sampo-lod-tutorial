@@ -56,13 +56,13 @@ def create_composition_instances():
     graph = Graph()
     bind_namespaces(graph)
 
-    composition_file = pd.read_csv('../csv/foc_Composition.csv', sep=";")
+    composition_file = pd.read_csv('../csv/foc_Composition.csv', sep=";", dtype=object)
     
     print("Adding compositions..")
     for i, row in composition_file.iterrows():
         handle_composition_row(graph, row)
     
-    composition_libretist_file = pd.read_csv('../csv/foc_CompositionLibretist.csv', sep=";")
+    composition_libretist_file = pd.read_csv('../csv/foc_CompositionLibretist.csv', sep=";", dtype=object)
     
     print("Adding libretists to compositions..")
     for i, row in composition_libretist_file.iterrows():

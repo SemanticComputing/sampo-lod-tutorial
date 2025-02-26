@@ -54,7 +54,7 @@ def create_place_instances():
     graph = Graph()
     bind_namespaces(graph)
 
-    places_file = pd.read_csv('../csv/foc_Place.csv', sep=";")
+    places_file = pd.read_csv('../csv/foc_Place.csv', sep=";", dtype=object)
     
     print("Adding places..")
     for i, row in places_file.iterrows():

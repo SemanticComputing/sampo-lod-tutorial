@@ -18,7 +18,7 @@ def handle_composition_role_row(graph, row):
     graph.add((roleURI, RDF.type, SCOP.Role))
 
     # composition
-    if row['compositionId'] != 0:
+    if not pd.isna(row['compositionId']):
         compositionURI = URIRef('http://ldf.fi/operasampo/compositions_' + str(row['compositionId']))
         graph.add((roleURI, SCOP.composition, compositionURI))
 
@@ -35,7 +35,7 @@ def create_composition_role_instances():
     graph = Graph()
     bind_namespaces(graph)
 
-    composition_roles_file = pd.read_csv('../csv/foc_CompositionRole.csv', sep=";")
+    composition_roles_file = pd.read_csv('../csv/foc_CompositionRole.csv', sep=";", dtype=object)
     
     print("Adding composition roles..")
     for i, row in composition_roles_file.iterrows():

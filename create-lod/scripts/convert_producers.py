@@ -40,7 +40,7 @@ def create_producer_instances():
     graph = Graph()
     bind_namespaces(graph)
 
-    producers_file = pd.read_csv('../csv/foc_Producer.csv', sep=";")
+    producers_file = pd.read_csv('../csv/foc_Producer.csv', sep=";", dtype=object)
     
     print("Adding producers..")
     for i, row in producers_file.iterrows():

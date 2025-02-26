@@ -42,22 +42,22 @@ def handle_performance_row(graph, row):
     graph.add((performanceURI, RDF.type, SCOP.Performance))
 
     # composition with compositionId
-    if row['compositionId'] != 0:
+    if not pd.isna(row['compositionId']):
         compositionURI = URIRef('http://ldf.fi/operasampo/compositions_' + str(row['compositionId']))
         graph.add((performanceURI, SCOP.composition, compositionURI))
 
     # conductor with conductorId
-    if row['conductorId'] != 0:
+    if not pd.isna(row['conductorId']):
         conductorURI = URIRef('http://ldf.fi/operasampo/persons_' + str(row['conductorId']))
         graph.add((performanceURI, SCOP.conductedBy, conductorURI))
 
     # director with directorId
-    if row['directorId'] != 0:
+    if not pd.isna(row['directorId']):
         directorURI = URIRef('http://ldf.fi/operasampo/persons_' + str(row['directorId']))
         graph.add((performanceURI, SCOP.directedBy, directorURI))
 
     # producer with producerId
-    if row['producerId'] != 0:
+    if not pd.isna(row['producerId']):
         producerURI = URIRef('http://ldf.fi/operasampo/producers_' + str(row['producerId']))
         graph.add((performanceURI, SCOP.producedBy, producerURI))
 
@@ -107,7 +107,7 @@ def create_performance_instances():
     graph = Graph()
     bind_namespaces(graph)
 
-    performances_file = pd.read_csv('../csv/foc_Performance.csv', sep=";")
+    performances_file = pd.read_csv('../csv/foc_Performance.csv', sep=";", dtype=object)
     
     print("Adding people..")
     for i, row in performances_file.iterrows():
