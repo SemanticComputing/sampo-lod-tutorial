@@ -1,0 +1,265 @@
+{
+    "id": "people",
+    "endpoint": {
+        "url": "http://localhost:3048/ds/sparql",
+        "useAuth": false,
+        "prefixesFile": "SparqlQueriesPrefixes.js"
+    },
+    "sparqlQueriesFile": "SparqlQueriesPeople.js",
+    "baseURI": "http://ldf.fi/operasampo/",
+    "URITemplate": "<BASE_URI><LOCAL_ID>",
+    "facetClass": "scop:Person",
+    "frontPageImage": "main_page/image-people.jpg",
+    "searchMode": "faceted-search",
+    "defaultActiveFacets": [
+        "prefLabel"
+    ],
+    "defaultTab": "table",
+    "defaultInstancePageTab": "table",
+    "resultClasses": {
+        "people": {
+            "paginatedResultsConfig": {
+                "tabID": 0,
+                "component": "ResultTable",
+                "tabPath": "table",
+                "tabIcon": "CalendarViewDay",
+                "propertiesQueryBlock": "personProperties",
+                "pagesize": 20,
+                "sortBy": null,
+                "sortDirection": null
+            },
+            "instanceConfig": {
+                "propertiesQueryBlock": "personProperties",
+                "instancePageResultClasses": {
+                    "instancePageTable": {
+                        "tabID": 0,
+                        "component": "InstancePageTable",
+                        "tabPath": "table",
+                        "tabIcon": "CalendarViewDay"
+                    },
+                    "instacePageRoles": {
+                        "tabID": 1,
+                        "component": "ApexCharts",
+                        "doNotRenderOnMount": true,
+                        "tabPath": "role_chart",
+                        "tabIcon": "PieChart",
+                        "facetClass": "people",
+                        "sparqlQuery": "personRolesQuery",
+                        "resultMapper": "mapPieChart",
+                        "filterTarget": "performanceRole",
+                        "pageType": "instancePage",
+                        "sliceVisibilityThreshold": 0.01,
+                        "dropdownForResultClasses": false,
+                        "dropdownForChartTypes": true,
+                        "chartTypes": [
+                            {
+                                "id": "pie",
+                                "createChartData": "createApexPieChartData"
+                            },
+                            {
+                                "id": "bar",
+                                "createChartData": "createApexBarChartData"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "performancesByProperty": {
+            "tabID": 1,
+            "component": "ApexCharts",
+            "doNotRenderOnMount": true,
+            "tabPath": "pie_chart",
+            "tabIcon": "PieChart",
+            "facetClass": "people",
+            "dropdownForResultClasses": true,
+            "defaultResultClass": "peopleByRelatedComposition",
+            "resultClasses": {
+                "peopleByRelatedComposition": {
+                    "sparqlQuery": "peopleByRelatedCompositionQuery",
+                    "filterTarget": "person",
+                    "resultMapper": "mapPieChart",
+                    "sliceVisibilityThreshold": 0.005,
+                    "dropdownForChartTypes": true,
+                    "chartTypes": [
+                        {
+                            "id": "pie",
+                            "createChartData": "createApexPieChartData"
+                        },
+                        {
+                            "id": "bar",
+                            "createChartData": "createApexBarChartData"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "properties": [
+        {
+            "id": "uri",
+            "valueType": "object",
+            "makeLink": true,
+            "externalLink": true,
+            "sortValues": true,
+            "numberedList": false,
+            "onlyOnInstancePage": true
+        },
+        {
+            "id": "prefLabel",
+            "valueType": "object",
+            "makeLink": true,
+            "externalLink": false,
+            "sortValues": true,
+            "numberedList": false,
+            "minWidth": 150
+        },
+        {
+            "id": "firstName",
+            "valueType": "string",
+            "makeLink": false,
+            "externalLink": false,
+            "sortValues": false,
+            "numberedList": false,
+            "minWidth": 100,
+            "onlyOnInstancePage": true
+        },
+        {
+            "id": "lastName",
+            "valueType": "string",
+            "makeLink": false,
+            "externalLink": false,
+            "sortValues": false,
+            "numberedList": false,
+            "minWidth": 100,
+            "onlyOnInstancePage": true
+        },
+        {
+            "id": "dateOfBirth",
+            "valueType": "string",
+            "makeLink": false,
+            "externalLink": false,
+            "sortValues": false,
+            "numberedList": false,
+            "minWidth": 100,
+            "onlyOnInstancePage": true
+        },
+        {
+            "id": "placeOfBirth",
+            "valueType": "string",
+            "makeLink": false,
+            "externalLink": false,
+            "sortValues": false,
+            "numberedList": false,
+            "minWidth": 100,
+            "onlyOnInstancePage": true
+        },
+        {
+            "id": "dateOfDeath",
+            "valueType": "string",
+            "makeLink": false,
+            "externalLink": false,
+            "sortValues": false,
+            "numberedList": false,
+            "minWidth": 100,
+            "onlyOnInstancePage": true
+        },
+        {
+            "id": "placeOfDeath",
+            "valueType": "string",
+            "makeLink": false,
+            "externalLink": false,
+            "sortValues": false,
+            "numberedList": false,
+            "minWidth": 100,
+            "onlyOnInstancePage": true
+        },
+        {
+            "id": "composedWork",
+            "valueType": "object",
+            "makeLink": true,
+            "externalLink": false,
+            "sortValues": false,
+            "numberedList": false,
+            "minWidth": 200,
+            "expandedOnInstancePage": true
+        },
+        {
+            "id": "libretto",
+            "valueType": "object",
+            "makeLink": true,
+            "externalLink": false,
+            "sortValues": false,
+            "numberedList": false,
+            "minWidth": 200,
+            "expandedOnInstancePage": true
+        },
+        {
+            "id": "roleCharacter",
+            "valueType": "object",
+            "makeLink": true,
+            "externalLink": false,
+            "sortValues": true,
+            "numberedList": false,
+            "minWidth": 250,
+            "expandedOnInstancePage": true
+        },
+        {
+            "id": "performanceRole",
+            "valueType": "object",
+            "makeLink": true,
+            "externalLink": false,
+            "sortValues": true,
+            "sortBy": "prefLabel",
+            "numberedList": false,
+            "minWidth": 200,
+            "onlyOnInstancePage": true,
+            "expandedOnInstancePage": true
+        },
+        {
+            "id": "additionalInfo",
+            "valueType": "string",
+            "makeLink": false,
+            "externalLink": false,
+            "sortValues": false,
+            "numberedList": false,
+            "minWidth": 250,
+            "onlyOnInstancePage": true,
+            "renderAsHTML": true
+        }
+    ],
+    "facets": {
+        "prefLabel": {
+            "containerClass": "one",
+            "facetType": "text",
+            "filterType": "textFilter",
+            "sortByPredicate": "skos:prefLabel",
+            "textQueryProperty": "skos:prefLabel"
+        },
+        "roleCharacter": {
+            "containerClass": "ten",
+            "facetType": "list",
+            "facetLabelFilter": "FILTER(LANG(?prefLabel_) = 'fi')",
+            "filterType": "uriFilter",
+            "predicate": "^scop:performer/scop:compositionRole",
+            "searchField": true,
+            "sortButton": true,
+            "sortBy": "instanceCount",
+            "sortByPredicate": "^scop:performer/scop:compositionRole/skos:prefLabel",
+            "sortDirection": "desc"
+        },
+        "composition": {
+            "containerClass": "ten",
+            "facetType": "list",
+            "facetLabelFilter": "FILTER(LANG(?prefLabel_) = 'fi')",
+            "filterType": "uriFilter",
+            "predicate": "(((^scop:performer/scop:performance)|^scop:choirLeadBy|^scop:conductedBy|^scop:directedBy|^scop:translator|^scop:costumeDesignBy|^scop:choreographyBy|^scop:scenographyBy)/scop:composition)|^scop:composedBy|^scop:libretist",
+            "searchField": true,
+            "sortButton": true,
+            "sortBy": "instanceCount",
+            "sortByPredicate": "((((^scop:performer/scop:performance)|^scop:choirLeadBy|^scop:conductedBy|^scop:directedBy|^scop:translator|^scop:costumeDesignBy|^scop:choreographyBy|^scop:scenographyBy)/scop:composition)|^scop:composedBy|^scop:libretist)/skos:prefLabel",
+            "sortDirection": "desc",
+            "pieChartButton": true
+        }
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "id": "producers",
+    "endpoint": {
+        "url": "http://localhost:3048/ds/sparql",
+        "useAuth": false,
+        "prefixesFile": "SparqlQueriesPrefixes.js"
+    },
+    "sparqlQueriesFile": "SparqlQueriesProducers.js",
+    "baseURI": "http://ldf.fi/operasampo/",
+    "URITemplate": "<BASE_URI><LOCAL_ID>",
+    "facetClass": "scop:Producer",
+    "defaultInstancePageTab": "table",
+    "resultClasses": {
+        "producers": {
+            "instanceConfig": {
+                "propertiesQueryBlock": "producerProperties",
+                "instancePageResultClasses": {
+                    "instancePageTable": {
+                        "tabID": 0,
+                        "component": "InstancePageTable",
+                        "tabPath": "table",
+                        "tabIcon": "CalendarViewDay"
+                    }
+                }
+            }
+        }
+    },
+    "properties": [
+        {
+            "id": "uri",
+            "valueType": "object",
+            "makeLink": true,
+            "externalLink": true,
+            "sortValues": true,
+            "numberedList": false,
+            "onlyOnInstancePage": true
+        },
+        {
+            "id": "prefLabel",
+            "valueType": "object",
+            "makeLink": true,
+            "externalLink": false,
+            "sortValues": true,
+            "numberedList": false,
+            "minWidth": 200
+        },
+        {
+            "id": "additionalInfo",
+            "valueType": "string",
+            "makeLink": false,
+            "externalLink": false,
+            "sortValues": false,
+            "numberedList": false,
+            "minWidth": 250,
+            "onlyOnInstancePage": true,
+            "renderAsHTML": true
+        },
+        {
+            "id": "producedPerformances",
+            "valueType": "object",
+            "makeLink": true,
+            "externalLink": false,
+            "sortValues": false,
+            "numberedList": false,
+            "minWidth": 250,
+            "onlyOnInstancePage": true,
+            "expandedOnInstancePage": true
+        }
+    ]
+}

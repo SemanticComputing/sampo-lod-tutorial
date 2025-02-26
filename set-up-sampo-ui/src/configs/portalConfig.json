@@ -3,20 +3,14 @@
     "rootUrl": "",
     "perspectives": {
         "searchPerspectives": [
-            "perspective1",
-            "perspective2",
-            "perspective3",
-            "perspective4",
-            "fullTextSearch"
+            "performances",
+            "people",
+            "compositions",
+            "roles",
+            "places"
         ],
         "onlyInstancePages": [
-            "manuscripts",
-            "collections",
-            "works",
-            "expressions",
-            "events",
-            "actors",
-            "places"
+            "producers"
         ]
     },
     "localeConfig": {
@@ -27,11 +21,6 @@
                 "id": "en",
                 "label": "English",
                 "filename": "localeEN.json"
-            },
-            {
-                "id": "fi",
-                "label": "English",
-                "filename": "localeFI.json"
             }
         ]
     },
@@ -65,7 +54,7 @@
             "logoImage": "logos/logo.png",
             "logoTextTransform": "none",
             "hideLogoTextOnMobile": true,
-            "showLanguageButton": true,
+            "showLanguageButton": false,
             "feedbackLink": "https://link.webropolsurveys.com/...",
             "externalInstructions": false,
             "externalAboutPage": false,

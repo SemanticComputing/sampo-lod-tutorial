@@ -1,0 +1,300 @@
+{
+    "id": "compositions",
+    "endpoint": {
+        "url": "http://localhost:3048/ds/sparql",
+        "useAuth": false,
+        "prefixesFile": "SparqlQueriesPrefixes.js"
+    },
+    "sparqlQueriesFile": "SparqlQueriesCompositions.js",
+    "baseURI": "http://ldf.fi/operasampo/",
+    "URITemplate": "<BASE_URI><LOCAL_ID>",
+    "facetClass": "scop:Composition",
+    "frontPageImage": "main_page/compositions-card.jpg",
+    "searchMode": "faceted-search",
+    "defaultActiveFacets": [
+        "prefLabel"
+    ],
+    "defaultTab": "table",
+    "defaultInstancePageTab": "table",
+    "resultClasses": {
+        "compositions": {
+            "paginatedResultsConfig": {
+                "tabID": 0,
+                "component": "ResultTable",
+                "tabPath": "table",
+                "tabIcon": "CalendarViewDay",
+                "propertiesQueryBlock": "compositionProperties",
+                "pagesize": 20,
+                "sortBy": null,
+                "sortDirection": null
+            },
+            "instanceConfig": {
+                "propertiesQueryBlock": "compositionProperties",
+                "instancePageResultClasses": {
+                    "instancePageTable": {
+                        "tabID": 0,
+                        "component": "InstancePageTable",
+                        "tabPath": "table",
+                        "tabIcon": "CalendarViewDay"
+                    },
+                    "instacePageVenues": {
+                        "tabID": 1,
+                        "component": "ApexCharts",
+                        "doNotRenderOnMount": true,
+                        "tabPath": "venue_chart",
+                        "tabIcon": "PieChart",
+                        "sparqlQuery": "compositionVenuesQuery",
+                        "resultMapper": "mapPieChart",
+                        "pageType": "instancePage",
+                        "sliceVisibilityThreshold": 0.01,
+                        "dropdownForResultClasses": false,
+                        "dropdownForChartTypes": true,
+                        "chartTypes": [
+                            {
+                                "id": "pie",
+                                "createChartData": "createApexPieChartData"
+                            },
+                            {
+                                "id": "bar",
+                                "createChartData": "createApexBarChartData"
+                            }
+                        ]
+                    },
+                    "compositionInstancePagePlaceTimeline": {
+                        "tabID": 2,
+                        "component": "ApexChartsDouble",
+                        "pageType": "instancePage",
+                        "tabPath": "activity_timeseries",
+                        "tabIcon": "Tune",
+                        "upperResultClass": "compositionInstancePageDoubleUpper",
+                        "lowerResultClass": "compositionInstancePageDoubleLower",
+                        "resultClasses": {
+                            "compositionInstancePageDoubleUpper": {
+                                "title": "Esitykset aikajanalla",
+                                "intlTitle": "performancesOnATimeline",
+                                "pageType": "instancePage",
+                                "height": "60%",
+                                "sparqlQuery": "performancePlacesInstancePageQuery",
+                                "filterTarget": "instance",
+                                "resultMapper": "createCorrespondenceChartData",
+                                "resultMapperConfig": {
+                                    "types": ["venue"],
+                                    "lastLabel": "...",
+                                    "numberTopResults": 20
+                                },
+                                "zType": "performance",
+                                "createChartData": "createClickableMarkersTopTimelineChartData",
+                                "tooltip": { "x": { "format": "d MMM yyyy" } },
+                                "fill": { "opacity": [0.7, 0.5] },
+                                "legend": { "position": "bottom" },
+                                "grid": {
+                                    "row": {
+                                      "colors": ["#d5d5d5", "transparent"], 
+                                      "opacity": 0.25
+                                    },
+                                    "column": { "colors": ["#a8a8a8", "transparent"] },
+                                    "xaxis": { "lines": { "show": true } },
+                                    "yaxis": { "lines": { "show": true } }
+                                }
+                            },
+                            "compositionInstancePageDoubleLower": {
+                                "pageType": "instancePage",
+                                "height": "40%",
+                                "filterTarget": "instance",
+                                "sparqlQuery": "performancesPerformedInstancePageQuery",
+                                "resultMapper": "createCorrespondenceChartDataLower",
+                                "resultMapperConfig": {
+                                    "fillEmptyValues": true
+                                },
+                                "createChartData": "createTopTimelineChartData2",
+                                "title": { "text": "Esitykset vuosittain", "align": "left" },
+                                "intlTitle": "annualPerformances",
+                                "xaxis": {
+                                    "type": "datetime",
+                                    "tooltip": { "enabled": true }
+                                },
+                                "yaxis": {
+                                    "labels": { "minWidth": 150, "maxWidth": 300 }
+                                },
+                                "grid": {
+                                    "column": { "colors": ["#a8a8a8", "transparent"] },
+                                    "xaxis": { "lines": { "show": true } },
+                                    "yaxis": { "lines": { "show": true } }
+                                },
+                                "tooltip": { "x": { "format": "yyyy" } },
+                                "stroke": { "curve": "stepline", "width": 1 },
+                                "fill": {
+                                    "type": "gradient",
+                                    "gradient": {
+                                        "shadeIntensity": 1,
+                                        "opacityFrom": 0.3,
+                                        "opacityTo": 0.6
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "compositionsByProperty": {
+            "tabID": 1,
+            "component": "ApexCharts",
+            "doNotRenderOnMount": true,
+            "tabPath": "pie_chart",
+            "tabIcon": "PieChart",
+            "facetClass": "compositions",
+            "dropdownForResultClasses": true,
+            "defaultResultClass": "compositionsByComposer",
+            "resultClasses": {
+                "compositionsByComposer": {
+                    "sparqlQuery": "compositionsByComposerQuery",
+                    "filterTarget": "composition",
+                    "resultMapper": "mapPieChart",
+                    "sliceVisibilityThreshold": 0.01,
+                    "dropdownForChartTypes": true,
+                    "chartTypes": [
+                        {
+                            "id": "pie",
+                            "createChartData": "createApexPieChartData"
+                        },
+                        {
+                            "id": "bar",
+                            "createChartData": "createApexBarChartData"
+                        }
+                    ]
+                },
+                "compositionsByLibretist": {
+                    "sparqlQuery": "compositionsByLibretistQuery",
+                    "filterTarget": "composition",
+                    "resultMapper": "mapPieChart",
+                    "sliceVisibilityThreshold": 0.008,
+                    "dropdownForChartTypes": true,
+                    "chartTypes": [
+                        {
+                            "id": "pie",
+                            "createChartData": "createApexPieChartData"
+                        },
+                        {
+                            "id": "bar",
+                            "createChartData": "createApexBarChartData"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "properties": [
+        {
+            "id": "uri",
+            "valueType": "object",
+            "makeLink": true,
+            "externalLink": true,
+            "sortValues": true,
+            "numberedList": false,
+            "onlyOnInstancePage": true
+        },
+        {
+            "id": "prefLabel",
+            "valueType": "object",
+            "makeLink": true,
+            "externalLink": false,
+            "sortValues": true,
+            "numberedList": false,
+            "minWidth": 250
+        },
+        {
+            "id": "composer",
+            "valueType": "object",
+            "makeLink": true,
+            "externalLink": false,
+            "sortValues": true,
+            "numberedList": false,
+            "minWidth": 200
+        },
+        {
+            "id": "libretist",
+            "valueType": "object",
+            "makeLink": true,
+            "externalLink": false,
+            "sortValues": true,
+            "numberedList": false,
+            "minWidth": 200
+        },
+        {
+            "id": "additionalTitle",
+            "valueType": "object",
+            "makeLink": false,
+            "externalLink": false,
+            "sortValues": false,
+            "numberedList": false,
+            "minWidth": 150,
+            "onlyOnInstancePage": true
+        },
+        {
+            "id": "originalTitle",
+            "valueType": "string",
+            "makeLink": false,
+            "externalLink": false,
+            "sortValues": false,
+            "numberedList": false,
+            "minWidth": 150,
+            "onlyOnInstancePage": true
+        },
+        {
+            "id": "performance",
+            "valueType": "object",
+            "makeLink": true,
+            "externalLink": false,
+            "sortValues": false,
+            "numberedList": false,
+            "minWidth": 200,
+            "onlyOnInstancePage": true,
+            "expandedOnInstancePage": true
+        },
+        {
+            "id": "role",
+            "valueType": "object",
+            "makeLink": true,
+            "externalLink": false,
+            "sortValues": false,
+            "numberedList": false,
+            "minWidth": 200,
+            "onlyOnInstancePage": true,
+            "expandedOnInstancePage": true
+        }
+    ],
+    "facets": {
+        "prefLabel": {
+            "containerClass": "one",
+            "facetType": "text",
+            "filterType": "textFilter",
+            "sortByPredicate": "skos:prefLabel",
+            "textQueryProperty": "skos:prefLabel"
+        },
+        "composer": {
+            "containerClass": "ten",
+            "facetType": "list",
+            "filterType": "uriFilter",
+            "predicate": "scop:composedBy",
+            "searchField": true,
+            "sortButton": true,
+            "sortBy": "instanceCount",
+            "sortByPredicate": "scop:composedBy/skos:prefLabel",
+            "sortDirection": "desc",
+            "pieChartButton": true
+        },
+        "libretist": {
+            "containerClass": "ten",
+            "facetType": "list",
+            "filterType": "uriFilter",
+            "predicate": "scop:libretist",
+            "searchField": true,
+            "sortButton": true,
+            "sortBy": "instanceCount",
+            "sortByPredicate": "scop:libretist/skos:prefLabel",
+            "sortDirection": "desc",
+            "pieChartButton": true
+        }
+    }
+}
