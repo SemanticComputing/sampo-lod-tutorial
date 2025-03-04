@@ -171,8 +171,8 @@ export const performancesByConductorQuery = `
       FILTER NOT EXISTS {
         ?performance scop:conductedBy [] .
       }
-      BIND("Tuntematon" as ?category)
-      BIND("Tuntematon" as ?prefLabel)
+      BIND("Unknown" as ?category)
+      BIND("Unknown" as ?prefLabel)
     }
   }
   GROUP BY ?category ?prefLabel
@@ -194,8 +194,8 @@ export const performancesByDirectorQuery = `
       FILTER NOT EXISTS {
         ?performance scop:directedBy [] .
       }
-      BIND("Tuntematon" as ?category)
-      BIND("Tuntematon" as ?prefLabel)
+      BIND("Unknown" as ?category)
+      BIND("Unknown" as ?prefLabel)
     }
   }
   GROUP BY ?category ?prefLabel
@@ -217,8 +217,8 @@ export const performancesByProducerQuery = `
       FILTER NOT EXISTS {
         ?performance scop:producedBy [] .
       }
-      BIND("Tuntematon" as ?category)
-      BIND("Tuntematon" as ?prefLabel)
+      BIND("Unknown" as ?category)
+      BIND("Unknown" as ?prefLabel)
     }
   }
   GROUP BY ?category ?prefLabel
@@ -240,8 +240,8 @@ export const performancesByComposerQuery = `
       FILTER NOT EXISTS {
         ?performance scop:composition/scop:composedBy [] .
       }
-      BIND("Tuntematon" as ?category)
-      BIND("Tuntematon" as ?prefLabel)
+      BIND("Unknown" as ?category)
+      BIND("Unknown" as ?prefLabel)
     }
   }
   GROUP BY ?category ?prefLabel
@@ -264,8 +264,8 @@ export const performancesByCompositionQuery = `
       FILTER NOT EXISTS {
         ?performance scop:composition [] .
       }
-      BIND("Tuntematon" as ?category)
-      BIND("Tuntematon" as ?prefLabel)
+      BIND("Unknown" as ?category)
+      BIND("Unknown" as ?prefLabel)
     }
   }
   GROUP BY ?category ?prefLabel
@@ -287,8 +287,8 @@ export const performancesByPerformancePlaceQuery = `
       FILTER NOT EXISTS {
         ?performance scop:performedIn [] .
       }
-      BIND("Tuntematon" as ?category)
-      BIND("Tuntematon" as ?prefLabel)
+      BIND("Unknown" as ?category)
+      BIND("Unknown" as ?prefLabel)
     }
   }
   GROUP BY ?category ?prefLabel
