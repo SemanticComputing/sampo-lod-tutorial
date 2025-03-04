@@ -21,3 +21,5 @@ The folder `set-up-sampo-ui` has the relevant files for the part "Creating a sem
 ### Contents
 
 - Sampo-UI configuration for the data created in `create-lod` with a local Fuseki SPARQL server running on port 3048 as specified in the Docker instructions in `create-lod`
+    - On first start, you'll need to install all the Node modules used by Sampo-UI. This can be done by running the command `npm install` in the `set-up-sampo-ui` folder.
+    - The application is run with `npm run dev` in the `set-up-sampo-ui` folder.
