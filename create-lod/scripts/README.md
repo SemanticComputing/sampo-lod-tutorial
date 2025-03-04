@@ -1,5 +1,19 @@
 # Scripts for running the conversion from CSV to RDF
 
+## Script dependencies
+
+- `pandas`
+- `untangle`
+- `rdflib`
+- `bs4`
+
+Dependencies can be installed with `pip`, e.g.,
+```
+pip install pandas
+```
+
+## Running the scripts
+
 All scripts can be run with `run_conversion.py`:
 
 ```
